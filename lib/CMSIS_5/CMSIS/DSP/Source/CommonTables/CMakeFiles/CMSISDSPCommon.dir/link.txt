@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libCMSISDSPCommon.a CMakeFiles/CMSISDSPCommon.dir/arm_common_tables.c.obj CMakeFiles/CMSISDSPCommon.dir/arm_common_tables_f16.c.obj CMakeFiles/CMSISDSPCommon.dir/arm_const_structs.c.obj CMakeFiles/CMSISDSPCommon.dir/arm_const_structs_f16.c.obj
+/usr/bin/arm-none-eabi-ranlib libCMSISDSPCommon.a
