@@ -1,0 +1,25 @@
+# Hashes of file build rules.
+21c9836b24ac04fc95f6e46061866f6c CMakeFiles/ELF2UF2Build
+aac8304f775c0a36130d28633beae5b6 CMakeFiles/ELF2UF2Build-complete
+84a8af6e83e818159d8cdac98737bd91 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
+105d3f8832790e194f288df6176fef06 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+a2a1da30f19d2286da9f68b17c5baf51 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+26b650c2cacc0bafd54c6d26a0682c7e elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+e30f2e909344e659b5b7fa54eb5a2d15 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+da92e499fe84c047772241fa96d22f32 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+20de6fbbee96fca59183d26666638a55 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+6fd2e42ebd509b3f9f1d597eca6beef2 lib/microphone-library-for-pico/CMakeFiles/PioasmBuild
+295f36b88d52a7cb3aac4ad9e8cb060e lib/microphone-library-for-pico/CMakeFiles/PioasmBuild-complete
+6fd2e42ebd509b3f9f1d597eca6beef2 lib/microphone-library-for-pico/CMakeFiles/pico_pdm_microphone_pdm_microphone_pio_h
+c4fef0619f1178302e69ee9f6e4703a7 lib/microphone-library-for-pico/pdm_microphone.pio.h
+f3a7b1aa924eaf07ec3c2fbc5dda53aa lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
+7a32e355dcb4cc22364838e6a2a88195 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+b4eb0ad4d99ef45bf535dea0685c5702 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+8a205b5d2c876ec8fad62800377f2af9 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
+c58532228a45c0d3bafbe86a1650b422 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+f45f3b2ad9d18719ac6526e06fb90418 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+d7d024dee3901bc08509b861067678e2 lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+9c4a5b6fca810864f369b70b53732520 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
+9c4a5b6fca810864f369b70b53732520 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
+aac459c14f635fbad7bdb8ad2506f427 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+57085675d7f5352b44f46645b91d728e pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S

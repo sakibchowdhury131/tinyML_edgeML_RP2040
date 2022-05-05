@@ -57,10 +57,10 @@ RM = /home/sakib/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions//CMakeFiles/progress.marks
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions//CMakeFiles/progress.marks
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/clean
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/rule:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/rule
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/rule
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CMSISDSPDistance: lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSI
 
 # fast build rule for target.
 CMSISDSPDistance/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build
 .PHONY : CMSISDSPDistance/fast
 
 arm_boolean_distance.obj: arm_boolean_distance.c.obj
@@ -135,7 +135,7 @@ arm_boolean_distance.obj: arm_boolean_distance.c.obj
 
 # target to build an object file
 arm_boolean_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.obj
 .PHONY : arm_boolean_distance.c.obj
 
 arm_boolean_distance.i: arm_boolean_distance.c.i
@@ -143,7 +143,7 @@ arm_boolean_distance.i: arm_boolean_distance.c.i
 
 # target to preprocess a source file
 arm_boolean_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.i
 .PHONY : arm_boolean_distance.c.i
 
 arm_boolean_distance.s: arm_boolean_distance.c.s
@@ -151,7 +151,7 @@ arm_boolean_distance.s: arm_boolean_distance.c.s
 
 # target to generate assembly for a file
 arm_boolean_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_boolean_distance.c.s
 .PHONY : arm_boolean_distance.c.s
 
 arm_braycurtis_distance_f16.obj: arm_braycurtis_distance_f16.c.obj
@@ -159,7 +159,7 @@ arm_braycurtis_distance_f16.obj: arm_braycurtis_distance_f16.c.obj
 
 # target to build an object file
 arm_braycurtis_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.obj
 .PHONY : arm_braycurtis_distance_f16.c.obj
 
 arm_braycurtis_distance_f16.i: arm_braycurtis_distance_f16.c.i
@@ -167,7 +167,7 @@ arm_braycurtis_distance_f16.i: arm_braycurtis_distance_f16.c.i
 
 # target to preprocess a source file
 arm_braycurtis_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.i
 .PHONY : arm_braycurtis_distance_f16.c.i
 
 arm_braycurtis_distance_f16.s: arm_braycurtis_distance_f16.c.s
@@ -175,7 +175,7 @@ arm_braycurtis_distance_f16.s: arm_braycurtis_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_braycurtis_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f16.c.s
 .PHONY : arm_braycurtis_distance_f16.c.s
 
 arm_braycurtis_distance_f32.obj: arm_braycurtis_distance_f32.c.obj
@@ -183,7 +183,7 @@ arm_braycurtis_distance_f32.obj: arm_braycurtis_distance_f32.c.obj
 
 # target to build an object file
 arm_braycurtis_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.obj
 .PHONY : arm_braycurtis_distance_f32.c.obj
 
 arm_braycurtis_distance_f32.i: arm_braycurtis_distance_f32.c.i
@@ -191,7 +191,7 @@ arm_braycurtis_distance_f32.i: arm_braycurtis_distance_f32.c.i
 
 # target to preprocess a source file
 arm_braycurtis_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.i
 .PHONY : arm_braycurtis_distance_f32.c.i
 
 arm_braycurtis_distance_f32.s: arm_braycurtis_distance_f32.c.s
@@ -199,7 +199,7 @@ arm_braycurtis_distance_f32.s: arm_braycurtis_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_braycurtis_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_braycurtis_distance_f32.c.s
 .PHONY : arm_braycurtis_distance_f32.c.s
 
 arm_canberra_distance_f16.obj: arm_canberra_distance_f16.c.obj
@@ -207,7 +207,7 @@ arm_canberra_distance_f16.obj: arm_canberra_distance_f16.c.obj
 
 # target to build an object file
 arm_canberra_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.obj
 .PHONY : arm_canberra_distance_f16.c.obj
 
 arm_canberra_distance_f16.i: arm_canberra_distance_f16.c.i
@@ -215,7 +215,7 @@ arm_canberra_distance_f16.i: arm_canberra_distance_f16.c.i
 
 # target to preprocess a source file
 arm_canberra_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.i
 .PHONY : arm_canberra_distance_f16.c.i
 
 arm_canberra_distance_f16.s: arm_canberra_distance_f16.c.s
@@ -223,7 +223,7 @@ arm_canberra_distance_f16.s: arm_canberra_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_canberra_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f16.c.s
 .PHONY : arm_canberra_distance_f16.c.s
 
 arm_canberra_distance_f32.obj: arm_canberra_distance_f32.c.obj
@@ -231,7 +231,7 @@ arm_canberra_distance_f32.obj: arm_canberra_distance_f32.c.obj
 
 # target to build an object file
 arm_canberra_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.obj
 .PHONY : arm_canberra_distance_f32.c.obj
 
 arm_canberra_distance_f32.i: arm_canberra_distance_f32.c.i
@@ -239,7 +239,7 @@ arm_canberra_distance_f32.i: arm_canberra_distance_f32.c.i
 
 # target to preprocess a source file
 arm_canberra_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.i
 .PHONY : arm_canberra_distance_f32.c.i
 
 arm_canberra_distance_f32.s: arm_canberra_distance_f32.c.s
@@ -247,7 +247,7 @@ arm_canberra_distance_f32.s: arm_canberra_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_canberra_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_canberra_distance_f32.c.s
 .PHONY : arm_canberra_distance_f32.c.s
 
 arm_chebyshev_distance_f16.obj: arm_chebyshev_distance_f16.c.obj
@@ -255,7 +255,7 @@ arm_chebyshev_distance_f16.obj: arm_chebyshev_distance_f16.c.obj
 
 # target to build an object file
 arm_chebyshev_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.obj
 .PHONY : arm_chebyshev_distance_f16.c.obj
 
 arm_chebyshev_distance_f16.i: arm_chebyshev_distance_f16.c.i
@@ -263,7 +263,7 @@ arm_chebyshev_distance_f16.i: arm_chebyshev_distance_f16.c.i
 
 # target to preprocess a source file
 arm_chebyshev_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.i
 .PHONY : arm_chebyshev_distance_f16.c.i
 
 arm_chebyshev_distance_f16.s: arm_chebyshev_distance_f16.c.s
@@ -271,7 +271,7 @@ arm_chebyshev_distance_f16.s: arm_chebyshev_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_chebyshev_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f16.c.s
 .PHONY : arm_chebyshev_distance_f16.c.s
 
 arm_chebyshev_distance_f32.obj: arm_chebyshev_distance_f32.c.obj
@@ -279,7 +279,7 @@ arm_chebyshev_distance_f32.obj: arm_chebyshev_distance_f32.c.obj
 
 # target to build an object file
 arm_chebyshev_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.obj
 .PHONY : arm_chebyshev_distance_f32.c.obj
 
 arm_chebyshev_distance_f32.i: arm_chebyshev_distance_f32.c.i
@@ -287,7 +287,7 @@ arm_chebyshev_distance_f32.i: arm_chebyshev_distance_f32.c.i
 
 # target to preprocess a source file
 arm_chebyshev_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.i
 .PHONY : arm_chebyshev_distance_f32.c.i
 
 arm_chebyshev_distance_f32.s: arm_chebyshev_distance_f32.c.s
@@ -295,7 +295,7 @@ arm_chebyshev_distance_f32.s: arm_chebyshev_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_chebyshev_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_chebyshev_distance_f32.c.s
 .PHONY : arm_chebyshev_distance_f32.c.s
 
 arm_cityblock_distance_f16.obj: arm_cityblock_distance_f16.c.obj
@@ -303,7 +303,7 @@ arm_cityblock_distance_f16.obj: arm_cityblock_distance_f16.c.obj
 
 # target to build an object file
 arm_cityblock_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.obj
 .PHONY : arm_cityblock_distance_f16.c.obj
 
 arm_cityblock_distance_f16.i: arm_cityblock_distance_f16.c.i
@@ -311,7 +311,7 @@ arm_cityblock_distance_f16.i: arm_cityblock_distance_f16.c.i
 
 # target to preprocess a source file
 arm_cityblock_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.i
 .PHONY : arm_cityblock_distance_f16.c.i
 
 arm_cityblock_distance_f16.s: arm_cityblock_distance_f16.c.s
@@ -319,7 +319,7 @@ arm_cityblock_distance_f16.s: arm_cityblock_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_cityblock_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f16.c.s
 .PHONY : arm_cityblock_distance_f16.c.s
 
 arm_cityblock_distance_f32.obj: arm_cityblock_distance_f32.c.obj
@@ -327,7 +327,7 @@ arm_cityblock_distance_f32.obj: arm_cityblock_distance_f32.c.obj
 
 # target to build an object file
 arm_cityblock_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.obj
 .PHONY : arm_cityblock_distance_f32.c.obj
 
 arm_cityblock_distance_f32.i: arm_cityblock_distance_f32.c.i
@@ -335,7 +335,7 @@ arm_cityblock_distance_f32.i: arm_cityblock_distance_f32.c.i
 
 # target to preprocess a source file
 arm_cityblock_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.i
 .PHONY : arm_cityblock_distance_f32.c.i
 
 arm_cityblock_distance_f32.s: arm_cityblock_distance_f32.c.s
@@ -343,7 +343,7 @@ arm_cityblock_distance_f32.s: arm_cityblock_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_cityblock_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cityblock_distance_f32.c.s
 .PHONY : arm_cityblock_distance_f32.c.s
 
 arm_correlation_distance_f16.obj: arm_correlation_distance_f16.c.obj
@@ -351,7 +351,7 @@ arm_correlation_distance_f16.obj: arm_correlation_distance_f16.c.obj
 
 # target to build an object file
 arm_correlation_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.obj
 .PHONY : arm_correlation_distance_f16.c.obj
 
 arm_correlation_distance_f16.i: arm_correlation_distance_f16.c.i
@@ -359,7 +359,7 @@ arm_correlation_distance_f16.i: arm_correlation_distance_f16.c.i
 
 # target to preprocess a source file
 arm_correlation_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.i
 .PHONY : arm_correlation_distance_f16.c.i
 
 arm_correlation_distance_f16.s: arm_correlation_distance_f16.c.s
@@ -367,7 +367,7 @@ arm_correlation_distance_f16.s: arm_correlation_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_correlation_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f16.c.s
 .PHONY : arm_correlation_distance_f16.c.s
 
 arm_correlation_distance_f32.obj: arm_correlation_distance_f32.c.obj
@@ -375,7 +375,7 @@ arm_correlation_distance_f32.obj: arm_correlation_distance_f32.c.obj
 
 # target to build an object file
 arm_correlation_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.obj
 .PHONY : arm_correlation_distance_f32.c.obj
 
 arm_correlation_distance_f32.i: arm_correlation_distance_f32.c.i
@@ -383,7 +383,7 @@ arm_correlation_distance_f32.i: arm_correlation_distance_f32.c.i
 
 # target to preprocess a source file
 arm_correlation_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.i
 .PHONY : arm_correlation_distance_f32.c.i
 
 arm_correlation_distance_f32.s: arm_correlation_distance_f32.c.s
@@ -391,7 +391,7 @@ arm_correlation_distance_f32.s: arm_correlation_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_correlation_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_correlation_distance_f32.c.s
 .PHONY : arm_correlation_distance_f32.c.s
 
 arm_cosine_distance_f16.obj: arm_cosine_distance_f16.c.obj
@@ -399,7 +399,7 @@ arm_cosine_distance_f16.obj: arm_cosine_distance_f16.c.obj
 
 # target to build an object file
 arm_cosine_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.obj
 .PHONY : arm_cosine_distance_f16.c.obj
 
 arm_cosine_distance_f16.i: arm_cosine_distance_f16.c.i
@@ -407,7 +407,7 @@ arm_cosine_distance_f16.i: arm_cosine_distance_f16.c.i
 
 # target to preprocess a source file
 arm_cosine_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.i
 .PHONY : arm_cosine_distance_f16.c.i
 
 arm_cosine_distance_f16.s: arm_cosine_distance_f16.c.s
@@ -415,7 +415,7 @@ arm_cosine_distance_f16.s: arm_cosine_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_cosine_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f16.c.s
 .PHONY : arm_cosine_distance_f16.c.s
 
 arm_cosine_distance_f32.obj: arm_cosine_distance_f32.c.obj
@@ -423,7 +423,7 @@ arm_cosine_distance_f32.obj: arm_cosine_distance_f32.c.obj
 
 # target to build an object file
 arm_cosine_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.obj
 .PHONY : arm_cosine_distance_f32.c.obj
 
 arm_cosine_distance_f32.i: arm_cosine_distance_f32.c.i
@@ -431,7 +431,7 @@ arm_cosine_distance_f32.i: arm_cosine_distance_f32.c.i
 
 # target to preprocess a source file
 arm_cosine_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.i
 .PHONY : arm_cosine_distance_f32.c.i
 
 arm_cosine_distance_f32.s: arm_cosine_distance_f32.c.s
@@ -439,7 +439,7 @@ arm_cosine_distance_f32.s: arm_cosine_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_cosine_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_cosine_distance_f32.c.s
 .PHONY : arm_cosine_distance_f32.c.s
 
 arm_dice_distance.obj: arm_dice_distance.c.obj
@@ -447,7 +447,7 @@ arm_dice_distance.obj: arm_dice_distance.c.obj
 
 # target to build an object file
 arm_dice_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.obj
 .PHONY : arm_dice_distance.c.obj
 
 arm_dice_distance.i: arm_dice_distance.c.i
@@ -455,7 +455,7 @@ arm_dice_distance.i: arm_dice_distance.c.i
 
 # target to preprocess a source file
 arm_dice_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.i
 .PHONY : arm_dice_distance.c.i
 
 arm_dice_distance.s: arm_dice_distance.c.s
@@ -463,7 +463,7 @@ arm_dice_distance.s: arm_dice_distance.c.s
 
 # target to generate assembly for a file
 arm_dice_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_dice_distance.c.s
 .PHONY : arm_dice_distance.c.s
 
 arm_euclidean_distance_f16.obj: arm_euclidean_distance_f16.c.obj
@@ -471,7 +471,7 @@ arm_euclidean_distance_f16.obj: arm_euclidean_distance_f16.c.obj
 
 # target to build an object file
 arm_euclidean_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.obj
 .PHONY : arm_euclidean_distance_f16.c.obj
 
 arm_euclidean_distance_f16.i: arm_euclidean_distance_f16.c.i
@@ -479,7 +479,7 @@ arm_euclidean_distance_f16.i: arm_euclidean_distance_f16.c.i
 
 # target to preprocess a source file
 arm_euclidean_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.i
 .PHONY : arm_euclidean_distance_f16.c.i
 
 arm_euclidean_distance_f16.s: arm_euclidean_distance_f16.c.s
@@ -487,7 +487,7 @@ arm_euclidean_distance_f16.s: arm_euclidean_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_euclidean_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f16.c.s
 .PHONY : arm_euclidean_distance_f16.c.s
 
 arm_euclidean_distance_f32.obj: arm_euclidean_distance_f32.c.obj
@@ -495,7 +495,7 @@ arm_euclidean_distance_f32.obj: arm_euclidean_distance_f32.c.obj
 
 # target to build an object file
 arm_euclidean_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.obj
 .PHONY : arm_euclidean_distance_f32.c.obj
 
 arm_euclidean_distance_f32.i: arm_euclidean_distance_f32.c.i
@@ -503,7 +503,7 @@ arm_euclidean_distance_f32.i: arm_euclidean_distance_f32.c.i
 
 # target to preprocess a source file
 arm_euclidean_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.i
 .PHONY : arm_euclidean_distance_f32.c.i
 
 arm_euclidean_distance_f32.s: arm_euclidean_distance_f32.c.s
@@ -511,7 +511,7 @@ arm_euclidean_distance_f32.s: arm_euclidean_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_euclidean_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_euclidean_distance_f32.c.s
 .PHONY : arm_euclidean_distance_f32.c.s
 
 arm_hamming_distance.obj: arm_hamming_distance.c.obj
@@ -519,7 +519,7 @@ arm_hamming_distance.obj: arm_hamming_distance.c.obj
 
 # target to build an object file
 arm_hamming_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.obj
 .PHONY : arm_hamming_distance.c.obj
 
 arm_hamming_distance.i: arm_hamming_distance.c.i
@@ -527,7 +527,7 @@ arm_hamming_distance.i: arm_hamming_distance.c.i
 
 # target to preprocess a source file
 arm_hamming_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.i
 .PHONY : arm_hamming_distance.c.i
 
 arm_hamming_distance.s: arm_hamming_distance.c.s
@@ -535,7 +535,7 @@ arm_hamming_distance.s: arm_hamming_distance.c.s
 
 # target to generate assembly for a file
 arm_hamming_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_hamming_distance.c.s
 .PHONY : arm_hamming_distance.c.s
 
 arm_jaccard_distance.obj: arm_jaccard_distance.c.obj
@@ -543,7 +543,7 @@ arm_jaccard_distance.obj: arm_jaccard_distance.c.obj
 
 # target to build an object file
 arm_jaccard_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.obj
 .PHONY : arm_jaccard_distance.c.obj
 
 arm_jaccard_distance.i: arm_jaccard_distance.c.i
@@ -551,7 +551,7 @@ arm_jaccard_distance.i: arm_jaccard_distance.c.i
 
 # target to preprocess a source file
 arm_jaccard_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.i
 .PHONY : arm_jaccard_distance.c.i
 
 arm_jaccard_distance.s: arm_jaccard_distance.c.s
@@ -559,7 +559,7 @@ arm_jaccard_distance.s: arm_jaccard_distance.c.s
 
 # target to generate assembly for a file
 arm_jaccard_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jaccard_distance.c.s
 .PHONY : arm_jaccard_distance.c.s
 
 arm_jensenshannon_distance_f16.obj: arm_jensenshannon_distance_f16.c.obj
@@ -567,7 +567,7 @@ arm_jensenshannon_distance_f16.obj: arm_jensenshannon_distance_f16.c.obj
 
 # target to build an object file
 arm_jensenshannon_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.obj
 .PHONY : arm_jensenshannon_distance_f16.c.obj
 
 arm_jensenshannon_distance_f16.i: arm_jensenshannon_distance_f16.c.i
@@ -575,7 +575,7 @@ arm_jensenshannon_distance_f16.i: arm_jensenshannon_distance_f16.c.i
 
 # target to preprocess a source file
 arm_jensenshannon_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.i
 .PHONY : arm_jensenshannon_distance_f16.c.i
 
 arm_jensenshannon_distance_f16.s: arm_jensenshannon_distance_f16.c.s
@@ -583,7 +583,7 @@ arm_jensenshannon_distance_f16.s: arm_jensenshannon_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_jensenshannon_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f16.c.s
 .PHONY : arm_jensenshannon_distance_f16.c.s
 
 arm_jensenshannon_distance_f32.obj: arm_jensenshannon_distance_f32.c.obj
@@ -591,7 +591,7 @@ arm_jensenshannon_distance_f32.obj: arm_jensenshannon_distance_f32.c.obj
 
 # target to build an object file
 arm_jensenshannon_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.obj
 .PHONY : arm_jensenshannon_distance_f32.c.obj
 
 arm_jensenshannon_distance_f32.i: arm_jensenshannon_distance_f32.c.i
@@ -599,7 +599,7 @@ arm_jensenshannon_distance_f32.i: arm_jensenshannon_distance_f32.c.i
 
 # target to preprocess a source file
 arm_jensenshannon_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.i
 .PHONY : arm_jensenshannon_distance_f32.c.i
 
 arm_jensenshannon_distance_f32.s: arm_jensenshannon_distance_f32.c.s
@@ -607,7 +607,7 @@ arm_jensenshannon_distance_f32.s: arm_jensenshannon_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_jensenshannon_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_jensenshannon_distance_f32.c.s
 .PHONY : arm_jensenshannon_distance_f32.c.s
 
 arm_kulsinski_distance.obj: arm_kulsinski_distance.c.obj
@@ -615,7 +615,7 @@ arm_kulsinski_distance.obj: arm_kulsinski_distance.c.obj
 
 # target to build an object file
 arm_kulsinski_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.obj
 .PHONY : arm_kulsinski_distance.c.obj
 
 arm_kulsinski_distance.i: arm_kulsinski_distance.c.i
@@ -623,7 +623,7 @@ arm_kulsinski_distance.i: arm_kulsinski_distance.c.i
 
 # target to preprocess a source file
 arm_kulsinski_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.i
 .PHONY : arm_kulsinski_distance.c.i
 
 arm_kulsinski_distance.s: arm_kulsinski_distance.c.s
@@ -631,7 +631,7 @@ arm_kulsinski_distance.s: arm_kulsinski_distance.c.s
 
 # target to generate assembly for a file
 arm_kulsinski_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_kulsinski_distance.c.s
 .PHONY : arm_kulsinski_distance.c.s
 
 arm_minkowski_distance_f16.obj: arm_minkowski_distance_f16.c.obj
@@ -639,7 +639,7 @@ arm_minkowski_distance_f16.obj: arm_minkowski_distance_f16.c.obj
 
 # target to build an object file
 arm_minkowski_distance_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.obj
 .PHONY : arm_minkowski_distance_f16.c.obj
 
 arm_minkowski_distance_f16.i: arm_minkowski_distance_f16.c.i
@@ -647,7 +647,7 @@ arm_minkowski_distance_f16.i: arm_minkowski_distance_f16.c.i
 
 # target to preprocess a source file
 arm_minkowski_distance_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.i
 .PHONY : arm_minkowski_distance_f16.c.i
 
 arm_minkowski_distance_f16.s: arm_minkowski_distance_f16.c.s
@@ -655,7 +655,7 @@ arm_minkowski_distance_f16.s: arm_minkowski_distance_f16.c.s
 
 # target to generate assembly for a file
 arm_minkowski_distance_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f16.c.s
 .PHONY : arm_minkowski_distance_f16.c.s
 
 arm_minkowski_distance_f32.obj: arm_minkowski_distance_f32.c.obj
@@ -663,7 +663,7 @@ arm_minkowski_distance_f32.obj: arm_minkowski_distance_f32.c.obj
 
 # target to build an object file
 arm_minkowski_distance_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.obj
 .PHONY : arm_minkowski_distance_f32.c.obj
 
 arm_minkowski_distance_f32.i: arm_minkowski_distance_f32.c.i
@@ -671,7 +671,7 @@ arm_minkowski_distance_f32.i: arm_minkowski_distance_f32.c.i
 
 # target to preprocess a source file
 arm_minkowski_distance_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.i
 .PHONY : arm_minkowski_distance_f32.c.i
 
 arm_minkowski_distance_f32.s: arm_minkowski_distance_f32.c.s
@@ -679,7 +679,7 @@ arm_minkowski_distance_f32.s: arm_minkowski_distance_f32.c.s
 
 # target to generate assembly for a file
 arm_minkowski_distance_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_minkowski_distance_f32.c.s
 .PHONY : arm_minkowski_distance_f32.c.s
 
 arm_rogerstanimoto_distance.obj: arm_rogerstanimoto_distance.c.obj
@@ -687,7 +687,7 @@ arm_rogerstanimoto_distance.obj: arm_rogerstanimoto_distance.c.obj
 
 # target to build an object file
 arm_rogerstanimoto_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.obj
 .PHONY : arm_rogerstanimoto_distance.c.obj
 
 arm_rogerstanimoto_distance.i: arm_rogerstanimoto_distance.c.i
@@ -695,7 +695,7 @@ arm_rogerstanimoto_distance.i: arm_rogerstanimoto_distance.c.i
 
 # target to preprocess a source file
 arm_rogerstanimoto_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.i
 .PHONY : arm_rogerstanimoto_distance.c.i
 
 arm_rogerstanimoto_distance.s: arm_rogerstanimoto_distance.c.s
@@ -703,7 +703,7 @@ arm_rogerstanimoto_distance.s: arm_rogerstanimoto_distance.c.s
 
 # target to generate assembly for a file
 arm_rogerstanimoto_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_rogerstanimoto_distance.c.s
 .PHONY : arm_rogerstanimoto_distance.c.s
 
 arm_russellrao_distance.obj: arm_russellrao_distance.c.obj
@@ -711,7 +711,7 @@ arm_russellrao_distance.obj: arm_russellrao_distance.c.obj
 
 # target to build an object file
 arm_russellrao_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.obj
 .PHONY : arm_russellrao_distance.c.obj
 
 arm_russellrao_distance.i: arm_russellrao_distance.c.i
@@ -719,7 +719,7 @@ arm_russellrao_distance.i: arm_russellrao_distance.c.i
 
 # target to preprocess a source file
 arm_russellrao_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.i
 .PHONY : arm_russellrao_distance.c.i
 
 arm_russellrao_distance.s: arm_russellrao_distance.c.s
@@ -727,7 +727,7 @@ arm_russellrao_distance.s: arm_russellrao_distance.c.s
 
 # target to generate assembly for a file
 arm_russellrao_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_russellrao_distance.c.s
 .PHONY : arm_russellrao_distance.c.s
 
 arm_sokalmichener_distance.obj: arm_sokalmichener_distance.c.obj
@@ -735,7 +735,7 @@ arm_sokalmichener_distance.obj: arm_sokalmichener_distance.c.obj
 
 # target to build an object file
 arm_sokalmichener_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.obj
 .PHONY : arm_sokalmichener_distance.c.obj
 
 arm_sokalmichener_distance.i: arm_sokalmichener_distance.c.i
@@ -743,7 +743,7 @@ arm_sokalmichener_distance.i: arm_sokalmichener_distance.c.i
 
 # target to preprocess a source file
 arm_sokalmichener_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.i
 .PHONY : arm_sokalmichener_distance.c.i
 
 arm_sokalmichener_distance.s: arm_sokalmichener_distance.c.s
@@ -751,7 +751,7 @@ arm_sokalmichener_distance.s: arm_sokalmichener_distance.c.s
 
 # target to generate assembly for a file
 arm_sokalmichener_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalmichener_distance.c.s
 .PHONY : arm_sokalmichener_distance.c.s
 
 arm_sokalsneath_distance.obj: arm_sokalsneath_distance.c.obj
@@ -759,7 +759,7 @@ arm_sokalsneath_distance.obj: arm_sokalsneath_distance.c.obj
 
 # target to build an object file
 arm_sokalsneath_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.obj
 .PHONY : arm_sokalsneath_distance.c.obj
 
 arm_sokalsneath_distance.i: arm_sokalsneath_distance.c.i
@@ -767,7 +767,7 @@ arm_sokalsneath_distance.i: arm_sokalsneath_distance.c.i
 
 # target to preprocess a source file
 arm_sokalsneath_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.i
 .PHONY : arm_sokalsneath_distance.c.i
 
 arm_sokalsneath_distance.s: arm_sokalsneath_distance.c.s
@@ -775,7 +775,7 @@ arm_sokalsneath_distance.s: arm_sokalsneath_distance.c.s
 
 # target to generate assembly for a file
 arm_sokalsneath_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_sokalsneath_distance.c.s
 .PHONY : arm_sokalsneath_distance.c.s
 
 arm_yule_distance.obj: arm_yule_distance.c.obj
@@ -783,7 +783,7 @@ arm_yule_distance.obj: arm_yule_distance.c.obj
 
 # target to build an object file
 arm_yule_distance.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.obj
 .PHONY : arm_yule_distance.c.obj
 
 arm_yule_distance.i: arm_yule_distance.c.i
@@ -791,7 +791,7 @@ arm_yule_distance.i: arm_yule_distance.c.i
 
 # target to preprocess a source file
 arm_yule_distance.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.i
 .PHONY : arm_yule_distance.c.i
 
 arm_yule_distance.s: arm_yule_distance.c.s
@@ -799,7 +799,7 @@ arm_yule_distance.s: arm_yule_distance.c.s
 
 # target to generate assembly for a file
 arm_yule_distance.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/CMakeFiles/CMSISDSPDistance.dir/arm_yule_distance.c.s
 .PHONY : arm_yule_distance.c.s
 
 # Help Target
@@ -906,6 +906,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/sakib/working_dir/railcop/pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

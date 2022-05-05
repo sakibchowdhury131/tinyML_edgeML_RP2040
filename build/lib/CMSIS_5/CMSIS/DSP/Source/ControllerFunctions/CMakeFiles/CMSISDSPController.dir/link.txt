@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libCMSISDSPController.a CMakeFiles/CMSISDSPController.dir/arm_pid_init_f32.c.obj CMakeFiles/CMSISDSPController.dir/arm_pid_init_q15.c.obj CMakeFiles/CMSISDSPController.dir/arm_pid_init_q31.c.obj CMakeFiles/CMSISDSPController.dir/arm_pid_reset_f32.c.obj CMakeFiles/CMSISDSPController.dir/arm_pid_reset_q15.c.obj CMakeFiles/CMSISDSPController.dir/arm_pid_reset_q31.c.obj CMakeFiles/CMSISDSPController.dir/arm_sin_cos_f32.c.obj CMakeFiles/CMSISDSPController.dir/arm_sin_cos_q31.c.obj
+/usr/bin/arm-none-eabi-ranlib libCMSISDSPController.a

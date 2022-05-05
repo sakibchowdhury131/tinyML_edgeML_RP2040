@@ -1,4 +1,4 @@
-# Install script for directory: /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source
+# Install script for directory: /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,76 +39,76 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BasicMathFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BasicMathFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/ComplexMathFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/ComplexMathFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/QuaternionMathFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/QuaternionMathFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/ControllerFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/ControllerFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/FilteringFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/FilteringFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/MatrixFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/MatrixFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/StatisticsFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/StatisticsFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/TransformFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/CommonTables/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/CommonTables/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/SVMFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/SVMFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/DistanceFunctions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/InterpolationFunctions/cmake_install.cmake")
+  include("/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/InterpolationFunctions/cmake_install.cmake")
 endif()
 

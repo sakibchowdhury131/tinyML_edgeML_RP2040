@@ -57,10 +57,10 @@ RM = /home/sakib/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions//CMakeFiles/progress.marks
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions//CMakeFiles/progress.marks
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/clean
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/rule:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/rule
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/rule
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CMSISDSPSupport: lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISD
 
 # fast build rule for target.
 CMSISDSPSupport/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build
 .PHONY : CMSISDSPSupport/fast
 
 arm_barycenter_f16.obj: arm_barycenter_f16.c.obj
@@ -135,7 +135,7 @@ arm_barycenter_f16.obj: arm_barycenter_f16.c.obj
 
 # target to build an object file
 arm_barycenter_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.obj
 .PHONY : arm_barycenter_f16.c.obj
 
 arm_barycenter_f16.i: arm_barycenter_f16.c.i
@@ -143,7 +143,7 @@ arm_barycenter_f16.i: arm_barycenter_f16.c.i
 
 # target to preprocess a source file
 arm_barycenter_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.i
 .PHONY : arm_barycenter_f16.c.i
 
 arm_barycenter_f16.s: arm_barycenter_f16.c.s
@@ -151,7 +151,7 @@ arm_barycenter_f16.s: arm_barycenter_f16.c.s
 
 # target to generate assembly for a file
 arm_barycenter_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f16.c.s
 .PHONY : arm_barycenter_f16.c.s
 
 arm_barycenter_f32.obj: arm_barycenter_f32.c.obj
@@ -159,7 +159,7 @@ arm_barycenter_f32.obj: arm_barycenter_f32.c.obj
 
 # target to build an object file
 arm_barycenter_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.obj
 .PHONY : arm_barycenter_f32.c.obj
 
 arm_barycenter_f32.i: arm_barycenter_f32.c.i
@@ -167,7 +167,7 @@ arm_barycenter_f32.i: arm_barycenter_f32.c.i
 
 # target to preprocess a source file
 arm_barycenter_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.i
 .PHONY : arm_barycenter_f32.c.i
 
 arm_barycenter_f32.s: arm_barycenter_f32.c.s
@@ -175,7 +175,7 @@ arm_barycenter_f32.s: arm_barycenter_f32.c.s
 
 # target to generate assembly for a file
 arm_barycenter_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_barycenter_f32.c.s
 .PHONY : arm_barycenter_f32.c.s
 
 arm_bitonic_sort_f32.obj: arm_bitonic_sort_f32.c.obj
@@ -183,7 +183,7 @@ arm_bitonic_sort_f32.obj: arm_bitonic_sort_f32.c.obj
 
 # target to build an object file
 arm_bitonic_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.obj
 .PHONY : arm_bitonic_sort_f32.c.obj
 
 arm_bitonic_sort_f32.i: arm_bitonic_sort_f32.c.i
@@ -191,7 +191,7 @@ arm_bitonic_sort_f32.i: arm_bitonic_sort_f32.c.i
 
 # target to preprocess a source file
 arm_bitonic_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.i
 .PHONY : arm_bitonic_sort_f32.c.i
 
 arm_bitonic_sort_f32.s: arm_bitonic_sort_f32.c.s
@@ -199,7 +199,7 @@ arm_bitonic_sort_f32.s: arm_bitonic_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_bitonic_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bitonic_sort_f32.c.s
 .PHONY : arm_bitonic_sort_f32.c.s
 
 arm_bubble_sort_f32.obj: arm_bubble_sort_f32.c.obj
@@ -207,7 +207,7 @@ arm_bubble_sort_f32.obj: arm_bubble_sort_f32.c.obj
 
 # target to build an object file
 arm_bubble_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.obj
 .PHONY : arm_bubble_sort_f32.c.obj
 
 arm_bubble_sort_f32.i: arm_bubble_sort_f32.c.i
@@ -215,7 +215,7 @@ arm_bubble_sort_f32.i: arm_bubble_sort_f32.c.i
 
 # target to preprocess a source file
 arm_bubble_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.i
 .PHONY : arm_bubble_sort_f32.c.i
 
 arm_bubble_sort_f32.s: arm_bubble_sort_f32.c.s
@@ -223,7 +223,7 @@ arm_bubble_sort_f32.s: arm_bubble_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_bubble_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_bubble_sort_f32.c.s
 .PHONY : arm_bubble_sort_f32.c.s
 
 arm_copy_f16.obj: arm_copy_f16.c.obj
@@ -231,7 +231,7 @@ arm_copy_f16.obj: arm_copy_f16.c.obj
 
 # target to build an object file
 arm_copy_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.obj
 .PHONY : arm_copy_f16.c.obj
 
 arm_copy_f16.i: arm_copy_f16.c.i
@@ -239,7 +239,7 @@ arm_copy_f16.i: arm_copy_f16.c.i
 
 # target to preprocess a source file
 arm_copy_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.i
 .PHONY : arm_copy_f16.c.i
 
 arm_copy_f16.s: arm_copy_f16.c.s
@@ -247,7 +247,7 @@ arm_copy_f16.s: arm_copy_f16.c.s
 
 # target to generate assembly for a file
 arm_copy_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f16.c.s
 .PHONY : arm_copy_f16.c.s
 
 arm_copy_f32.obj: arm_copy_f32.c.obj
@@ -255,7 +255,7 @@ arm_copy_f32.obj: arm_copy_f32.c.obj
 
 # target to build an object file
 arm_copy_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.obj
 .PHONY : arm_copy_f32.c.obj
 
 arm_copy_f32.i: arm_copy_f32.c.i
@@ -263,7 +263,7 @@ arm_copy_f32.i: arm_copy_f32.c.i
 
 # target to preprocess a source file
 arm_copy_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.i
 .PHONY : arm_copy_f32.c.i
 
 arm_copy_f32.s: arm_copy_f32.c.s
@@ -271,7 +271,7 @@ arm_copy_f32.s: arm_copy_f32.c.s
 
 # target to generate assembly for a file
 arm_copy_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_f32.c.s
 .PHONY : arm_copy_f32.c.s
 
 arm_copy_q15.obj: arm_copy_q15.c.obj
@@ -279,7 +279,7 @@ arm_copy_q15.obj: arm_copy_q15.c.obj
 
 # target to build an object file
 arm_copy_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.obj
 .PHONY : arm_copy_q15.c.obj
 
 arm_copy_q15.i: arm_copy_q15.c.i
@@ -287,7 +287,7 @@ arm_copy_q15.i: arm_copy_q15.c.i
 
 # target to preprocess a source file
 arm_copy_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.i
 .PHONY : arm_copy_q15.c.i
 
 arm_copy_q15.s: arm_copy_q15.c.s
@@ -295,7 +295,7 @@ arm_copy_q15.s: arm_copy_q15.c.s
 
 # target to generate assembly for a file
 arm_copy_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q15.c.s
 .PHONY : arm_copy_q15.c.s
 
 arm_copy_q31.obj: arm_copy_q31.c.obj
@@ -303,7 +303,7 @@ arm_copy_q31.obj: arm_copy_q31.c.obj
 
 # target to build an object file
 arm_copy_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.obj
 .PHONY : arm_copy_q31.c.obj
 
 arm_copy_q31.i: arm_copy_q31.c.i
@@ -311,7 +311,7 @@ arm_copy_q31.i: arm_copy_q31.c.i
 
 # target to preprocess a source file
 arm_copy_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.i
 .PHONY : arm_copy_q31.c.i
 
 arm_copy_q31.s: arm_copy_q31.c.s
@@ -319,7 +319,7 @@ arm_copy_q31.s: arm_copy_q31.c.s
 
 # target to generate assembly for a file
 arm_copy_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q31.c.s
 .PHONY : arm_copy_q31.c.s
 
 arm_copy_q7.obj: arm_copy_q7.c.obj
@@ -327,7 +327,7 @@ arm_copy_q7.obj: arm_copy_q7.c.obj
 
 # target to build an object file
 arm_copy_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.obj
 .PHONY : arm_copy_q7.c.obj
 
 arm_copy_q7.i: arm_copy_q7.c.i
@@ -335,7 +335,7 @@ arm_copy_q7.i: arm_copy_q7.c.i
 
 # target to preprocess a source file
 arm_copy_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.i
 .PHONY : arm_copy_q7.c.i
 
 arm_copy_q7.s: arm_copy_q7.c.s
@@ -343,7 +343,7 @@ arm_copy_q7.s: arm_copy_q7.c.s
 
 # target to generate assembly for a file
 arm_copy_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_copy_q7.c.s
 .PHONY : arm_copy_q7.c.s
 
 arm_f16_to_float.obj: arm_f16_to_float.c.obj
@@ -351,7 +351,7 @@ arm_f16_to_float.obj: arm_f16_to_float.c.obj
 
 # target to build an object file
 arm_f16_to_float.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.obj
 .PHONY : arm_f16_to_float.c.obj
 
 arm_f16_to_float.i: arm_f16_to_float.c.i
@@ -359,7 +359,7 @@ arm_f16_to_float.i: arm_f16_to_float.c.i
 
 # target to preprocess a source file
 arm_f16_to_float.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.i
 .PHONY : arm_f16_to_float.c.i
 
 arm_f16_to_float.s: arm_f16_to_float.c.s
@@ -367,7 +367,7 @@ arm_f16_to_float.s: arm_f16_to_float.c.s
 
 # target to generate assembly for a file
 arm_f16_to_float.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_float.c.s
 .PHONY : arm_f16_to_float.c.s
 
 arm_f16_to_q15.obj: arm_f16_to_q15.c.obj
@@ -375,7 +375,7 @@ arm_f16_to_q15.obj: arm_f16_to_q15.c.obj
 
 # target to build an object file
 arm_f16_to_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.obj
 .PHONY : arm_f16_to_q15.c.obj
 
 arm_f16_to_q15.i: arm_f16_to_q15.c.i
@@ -383,7 +383,7 @@ arm_f16_to_q15.i: arm_f16_to_q15.c.i
 
 # target to preprocess a source file
 arm_f16_to_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.i
 .PHONY : arm_f16_to_q15.c.i
 
 arm_f16_to_q15.s: arm_f16_to_q15.c.s
@@ -391,7 +391,7 @@ arm_f16_to_q15.s: arm_f16_to_q15.c.s
 
 # target to generate assembly for a file
 arm_f16_to_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_f16_to_q15.c.s
 .PHONY : arm_f16_to_q15.c.s
 
 arm_fill_f16.obj: arm_fill_f16.c.obj
@@ -399,7 +399,7 @@ arm_fill_f16.obj: arm_fill_f16.c.obj
 
 # target to build an object file
 arm_fill_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.obj
 .PHONY : arm_fill_f16.c.obj
 
 arm_fill_f16.i: arm_fill_f16.c.i
@@ -407,7 +407,7 @@ arm_fill_f16.i: arm_fill_f16.c.i
 
 # target to preprocess a source file
 arm_fill_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.i
 .PHONY : arm_fill_f16.c.i
 
 arm_fill_f16.s: arm_fill_f16.c.s
@@ -415,7 +415,7 @@ arm_fill_f16.s: arm_fill_f16.c.s
 
 # target to generate assembly for a file
 arm_fill_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f16.c.s
 .PHONY : arm_fill_f16.c.s
 
 arm_fill_f32.obj: arm_fill_f32.c.obj
@@ -423,7 +423,7 @@ arm_fill_f32.obj: arm_fill_f32.c.obj
 
 # target to build an object file
 arm_fill_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.obj
 .PHONY : arm_fill_f32.c.obj
 
 arm_fill_f32.i: arm_fill_f32.c.i
@@ -431,7 +431,7 @@ arm_fill_f32.i: arm_fill_f32.c.i
 
 # target to preprocess a source file
 arm_fill_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.i
 .PHONY : arm_fill_f32.c.i
 
 arm_fill_f32.s: arm_fill_f32.c.s
@@ -439,7 +439,7 @@ arm_fill_f32.s: arm_fill_f32.c.s
 
 # target to generate assembly for a file
 arm_fill_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_f32.c.s
 .PHONY : arm_fill_f32.c.s
 
 arm_fill_q15.obj: arm_fill_q15.c.obj
@@ -447,7 +447,7 @@ arm_fill_q15.obj: arm_fill_q15.c.obj
 
 # target to build an object file
 arm_fill_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.obj
 .PHONY : arm_fill_q15.c.obj
 
 arm_fill_q15.i: arm_fill_q15.c.i
@@ -455,7 +455,7 @@ arm_fill_q15.i: arm_fill_q15.c.i
 
 # target to preprocess a source file
 arm_fill_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.i
 .PHONY : arm_fill_q15.c.i
 
 arm_fill_q15.s: arm_fill_q15.c.s
@@ -463,7 +463,7 @@ arm_fill_q15.s: arm_fill_q15.c.s
 
 # target to generate assembly for a file
 arm_fill_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q15.c.s
 .PHONY : arm_fill_q15.c.s
 
 arm_fill_q31.obj: arm_fill_q31.c.obj
@@ -471,7 +471,7 @@ arm_fill_q31.obj: arm_fill_q31.c.obj
 
 # target to build an object file
 arm_fill_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.obj
 .PHONY : arm_fill_q31.c.obj
 
 arm_fill_q31.i: arm_fill_q31.c.i
@@ -479,7 +479,7 @@ arm_fill_q31.i: arm_fill_q31.c.i
 
 # target to preprocess a source file
 arm_fill_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.i
 .PHONY : arm_fill_q31.c.i
 
 arm_fill_q31.s: arm_fill_q31.c.s
@@ -487,7 +487,7 @@ arm_fill_q31.s: arm_fill_q31.c.s
 
 # target to generate assembly for a file
 arm_fill_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q31.c.s
 .PHONY : arm_fill_q31.c.s
 
 arm_fill_q7.obj: arm_fill_q7.c.obj
@@ -495,7 +495,7 @@ arm_fill_q7.obj: arm_fill_q7.c.obj
 
 # target to build an object file
 arm_fill_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.obj
 .PHONY : arm_fill_q7.c.obj
 
 arm_fill_q7.i: arm_fill_q7.c.i
@@ -503,7 +503,7 @@ arm_fill_q7.i: arm_fill_q7.c.i
 
 # target to preprocess a source file
 arm_fill_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.i
 .PHONY : arm_fill_q7.c.i
 
 arm_fill_q7.s: arm_fill_q7.c.s
@@ -511,7 +511,7 @@ arm_fill_q7.s: arm_fill_q7.c.s
 
 # target to generate assembly for a file
 arm_fill_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_fill_q7.c.s
 .PHONY : arm_fill_q7.c.s
 
 arm_float_to_f16.obj: arm_float_to_f16.c.obj
@@ -519,7 +519,7 @@ arm_float_to_f16.obj: arm_float_to_f16.c.obj
 
 # target to build an object file
 arm_float_to_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.obj
 .PHONY : arm_float_to_f16.c.obj
 
 arm_float_to_f16.i: arm_float_to_f16.c.i
@@ -527,7 +527,7 @@ arm_float_to_f16.i: arm_float_to_f16.c.i
 
 # target to preprocess a source file
 arm_float_to_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.i
 .PHONY : arm_float_to_f16.c.i
 
 arm_float_to_f16.s: arm_float_to_f16.c.s
@@ -535,7 +535,7 @@ arm_float_to_f16.s: arm_float_to_f16.c.s
 
 # target to generate assembly for a file
 arm_float_to_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_f16.c.s
 .PHONY : arm_float_to_f16.c.s
 
 arm_float_to_q15.obj: arm_float_to_q15.c.obj
@@ -543,7 +543,7 @@ arm_float_to_q15.obj: arm_float_to_q15.c.obj
 
 # target to build an object file
 arm_float_to_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.obj
 .PHONY : arm_float_to_q15.c.obj
 
 arm_float_to_q15.i: arm_float_to_q15.c.i
@@ -551,7 +551,7 @@ arm_float_to_q15.i: arm_float_to_q15.c.i
 
 # target to preprocess a source file
 arm_float_to_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.i
 .PHONY : arm_float_to_q15.c.i
 
 arm_float_to_q15.s: arm_float_to_q15.c.s
@@ -559,7 +559,7 @@ arm_float_to_q15.s: arm_float_to_q15.c.s
 
 # target to generate assembly for a file
 arm_float_to_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q15.c.s
 .PHONY : arm_float_to_q15.c.s
 
 arm_float_to_q31.obj: arm_float_to_q31.c.obj
@@ -567,7 +567,7 @@ arm_float_to_q31.obj: arm_float_to_q31.c.obj
 
 # target to build an object file
 arm_float_to_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.obj
 .PHONY : arm_float_to_q31.c.obj
 
 arm_float_to_q31.i: arm_float_to_q31.c.i
@@ -575,7 +575,7 @@ arm_float_to_q31.i: arm_float_to_q31.c.i
 
 # target to preprocess a source file
 arm_float_to_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.i
 .PHONY : arm_float_to_q31.c.i
 
 arm_float_to_q31.s: arm_float_to_q31.c.s
@@ -583,7 +583,7 @@ arm_float_to_q31.s: arm_float_to_q31.c.s
 
 # target to generate assembly for a file
 arm_float_to_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q31.c.s
 .PHONY : arm_float_to_q31.c.s
 
 arm_float_to_q7.obj: arm_float_to_q7.c.obj
@@ -591,7 +591,7 @@ arm_float_to_q7.obj: arm_float_to_q7.c.obj
 
 # target to build an object file
 arm_float_to_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.obj
 .PHONY : arm_float_to_q7.c.obj
 
 arm_float_to_q7.i: arm_float_to_q7.c.i
@@ -599,7 +599,7 @@ arm_float_to_q7.i: arm_float_to_q7.c.i
 
 # target to preprocess a source file
 arm_float_to_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.i
 .PHONY : arm_float_to_q7.c.i
 
 arm_float_to_q7.s: arm_float_to_q7.c.s
@@ -607,7 +607,7 @@ arm_float_to_q7.s: arm_float_to_q7.c.s
 
 # target to generate assembly for a file
 arm_float_to_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_float_to_q7.c.s
 .PHONY : arm_float_to_q7.c.s
 
 arm_heap_sort_f32.obj: arm_heap_sort_f32.c.obj
@@ -615,7 +615,7 @@ arm_heap_sort_f32.obj: arm_heap_sort_f32.c.obj
 
 # target to build an object file
 arm_heap_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.obj
 .PHONY : arm_heap_sort_f32.c.obj
 
 arm_heap_sort_f32.i: arm_heap_sort_f32.c.i
@@ -623,7 +623,7 @@ arm_heap_sort_f32.i: arm_heap_sort_f32.c.i
 
 # target to preprocess a source file
 arm_heap_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.i
 .PHONY : arm_heap_sort_f32.c.i
 
 arm_heap_sort_f32.s: arm_heap_sort_f32.c.s
@@ -631,7 +631,7 @@ arm_heap_sort_f32.s: arm_heap_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_heap_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_heap_sort_f32.c.s
 .PHONY : arm_heap_sort_f32.c.s
 
 arm_insertion_sort_f32.obj: arm_insertion_sort_f32.c.obj
@@ -639,7 +639,7 @@ arm_insertion_sort_f32.obj: arm_insertion_sort_f32.c.obj
 
 # target to build an object file
 arm_insertion_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.obj
 .PHONY : arm_insertion_sort_f32.c.obj
 
 arm_insertion_sort_f32.i: arm_insertion_sort_f32.c.i
@@ -647,7 +647,7 @@ arm_insertion_sort_f32.i: arm_insertion_sort_f32.c.i
 
 # target to preprocess a source file
 arm_insertion_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.i
 .PHONY : arm_insertion_sort_f32.c.i
 
 arm_insertion_sort_f32.s: arm_insertion_sort_f32.c.s
@@ -655,7 +655,7 @@ arm_insertion_sort_f32.s: arm_insertion_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_insertion_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_insertion_sort_f32.c.s
 .PHONY : arm_insertion_sort_f32.c.s
 
 arm_merge_sort_f32.obj: arm_merge_sort_f32.c.obj
@@ -663,7 +663,7 @@ arm_merge_sort_f32.obj: arm_merge_sort_f32.c.obj
 
 # target to build an object file
 arm_merge_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.obj
 .PHONY : arm_merge_sort_f32.c.obj
 
 arm_merge_sort_f32.i: arm_merge_sort_f32.c.i
@@ -671,7 +671,7 @@ arm_merge_sort_f32.i: arm_merge_sort_f32.c.i
 
 # target to preprocess a source file
 arm_merge_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.i
 .PHONY : arm_merge_sort_f32.c.i
 
 arm_merge_sort_f32.s: arm_merge_sort_f32.c.s
@@ -679,7 +679,7 @@ arm_merge_sort_f32.s: arm_merge_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_merge_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_f32.c.s
 .PHONY : arm_merge_sort_f32.c.s
 
 arm_merge_sort_init_f32.obj: arm_merge_sort_init_f32.c.obj
@@ -687,7 +687,7 @@ arm_merge_sort_init_f32.obj: arm_merge_sort_init_f32.c.obj
 
 # target to build an object file
 arm_merge_sort_init_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.obj
 .PHONY : arm_merge_sort_init_f32.c.obj
 
 arm_merge_sort_init_f32.i: arm_merge_sort_init_f32.c.i
@@ -695,7 +695,7 @@ arm_merge_sort_init_f32.i: arm_merge_sort_init_f32.c.i
 
 # target to preprocess a source file
 arm_merge_sort_init_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.i
 .PHONY : arm_merge_sort_init_f32.c.i
 
 arm_merge_sort_init_f32.s: arm_merge_sort_init_f32.c.s
@@ -703,7 +703,7 @@ arm_merge_sort_init_f32.s: arm_merge_sort_init_f32.c.s
 
 # target to generate assembly for a file
 arm_merge_sort_init_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_merge_sort_init_f32.c.s
 .PHONY : arm_merge_sort_init_f32.c.s
 
 arm_q15_to_f16.obj: arm_q15_to_f16.c.obj
@@ -711,7 +711,7 @@ arm_q15_to_f16.obj: arm_q15_to_f16.c.obj
 
 # target to build an object file
 arm_q15_to_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.obj
 .PHONY : arm_q15_to_f16.c.obj
 
 arm_q15_to_f16.i: arm_q15_to_f16.c.i
@@ -719,7 +719,7 @@ arm_q15_to_f16.i: arm_q15_to_f16.c.i
 
 # target to preprocess a source file
 arm_q15_to_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.i
 .PHONY : arm_q15_to_f16.c.i
 
 arm_q15_to_f16.s: arm_q15_to_f16.c.s
@@ -727,7 +727,7 @@ arm_q15_to_f16.s: arm_q15_to_f16.c.s
 
 # target to generate assembly for a file
 arm_q15_to_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_f16.c.s
 .PHONY : arm_q15_to_f16.c.s
 
 arm_q15_to_float.obj: arm_q15_to_float.c.obj
@@ -735,7 +735,7 @@ arm_q15_to_float.obj: arm_q15_to_float.c.obj
 
 # target to build an object file
 arm_q15_to_float.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.obj
 .PHONY : arm_q15_to_float.c.obj
 
 arm_q15_to_float.i: arm_q15_to_float.c.i
@@ -743,7 +743,7 @@ arm_q15_to_float.i: arm_q15_to_float.c.i
 
 # target to preprocess a source file
 arm_q15_to_float.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.i
 .PHONY : arm_q15_to_float.c.i
 
 arm_q15_to_float.s: arm_q15_to_float.c.s
@@ -751,7 +751,7 @@ arm_q15_to_float.s: arm_q15_to_float.c.s
 
 # target to generate assembly for a file
 arm_q15_to_float.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_float.c.s
 .PHONY : arm_q15_to_float.c.s
 
 arm_q15_to_q31.obj: arm_q15_to_q31.c.obj
@@ -759,7 +759,7 @@ arm_q15_to_q31.obj: arm_q15_to_q31.c.obj
 
 # target to build an object file
 arm_q15_to_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.obj
 .PHONY : arm_q15_to_q31.c.obj
 
 arm_q15_to_q31.i: arm_q15_to_q31.c.i
@@ -767,7 +767,7 @@ arm_q15_to_q31.i: arm_q15_to_q31.c.i
 
 # target to preprocess a source file
 arm_q15_to_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.i
 .PHONY : arm_q15_to_q31.c.i
 
 arm_q15_to_q31.s: arm_q15_to_q31.c.s
@@ -775,7 +775,7 @@ arm_q15_to_q31.s: arm_q15_to_q31.c.s
 
 # target to generate assembly for a file
 arm_q15_to_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q31.c.s
 .PHONY : arm_q15_to_q31.c.s
 
 arm_q15_to_q7.obj: arm_q15_to_q7.c.obj
@@ -783,7 +783,7 @@ arm_q15_to_q7.obj: arm_q15_to_q7.c.obj
 
 # target to build an object file
 arm_q15_to_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.obj
 .PHONY : arm_q15_to_q7.c.obj
 
 arm_q15_to_q7.i: arm_q15_to_q7.c.i
@@ -791,7 +791,7 @@ arm_q15_to_q7.i: arm_q15_to_q7.c.i
 
 # target to preprocess a source file
 arm_q15_to_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.i
 .PHONY : arm_q15_to_q7.c.i
 
 arm_q15_to_q7.s: arm_q15_to_q7.c.s
@@ -799,7 +799,7 @@ arm_q15_to_q7.s: arm_q15_to_q7.c.s
 
 # target to generate assembly for a file
 arm_q15_to_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q15_to_q7.c.s
 .PHONY : arm_q15_to_q7.c.s
 
 arm_q31_to_float.obj: arm_q31_to_float.c.obj
@@ -807,7 +807,7 @@ arm_q31_to_float.obj: arm_q31_to_float.c.obj
 
 # target to build an object file
 arm_q31_to_float.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.obj
 .PHONY : arm_q31_to_float.c.obj
 
 arm_q31_to_float.i: arm_q31_to_float.c.i
@@ -815,7 +815,7 @@ arm_q31_to_float.i: arm_q31_to_float.c.i
 
 # target to preprocess a source file
 arm_q31_to_float.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.i
 .PHONY : arm_q31_to_float.c.i
 
 arm_q31_to_float.s: arm_q31_to_float.c.s
@@ -823,7 +823,7 @@ arm_q31_to_float.s: arm_q31_to_float.c.s
 
 # target to generate assembly for a file
 arm_q31_to_float.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_float.c.s
 .PHONY : arm_q31_to_float.c.s
 
 arm_q31_to_q15.obj: arm_q31_to_q15.c.obj
@@ -831,7 +831,7 @@ arm_q31_to_q15.obj: arm_q31_to_q15.c.obj
 
 # target to build an object file
 arm_q31_to_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.obj
 .PHONY : arm_q31_to_q15.c.obj
 
 arm_q31_to_q15.i: arm_q31_to_q15.c.i
@@ -839,7 +839,7 @@ arm_q31_to_q15.i: arm_q31_to_q15.c.i
 
 # target to preprocess a source file
 arm_q31_to_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.i
 .PHONY : arm_q31_to_q15.c.i
 
 arm_q31_to_q15.s: arm_q31_to_q15.c.s
@@ -847,7 +847,7 @@ arm_q31_to_q15.s: arm_q31_to_q15.c.s
 
 # target to generate assembly for a file
 arm_q31_to_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q15.c.s
 .PHONY : arm_q31_to_q15.c.s
 
 arm_q31_to_q7.obj: arm_q31_to_q7.c.obj
@@ -855,7 +855,7 @@ arm_q31_to_q7.obj: arm_q31_to_q7.c.obj
 
 # target to build an object file
 arm_q31_to_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.obj
 .PHONY : arm_q31_to_q7.c.obj
 
 arm_q31_to_q7.i: arm_q31_to_q7.c.i
@@ -863,7 +863,7 @@ arm_q31_to_q7.i: arm_q31_to_q7.c.i
 
 # target to preprocess a source file
 arm_q31_to_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.i
 .PHONY : arm_q31_to_q7.c.i
 
 arm_q31_to_q7.s: arm_q31_to_q7.c.s
@@ -871,7 +871,7 @@ arm_q31_to_q7.s: arm_q31_to_q7.c.s
 
 # target to generate assembly for a file
 arm_q31_to_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q31_to_q7.c.s
 .PHONY : arm_q31_to_q7.c.s
 
 arm_q7_to_float.obj: arm_q7_to_float.c.obj
@@ -879,7 +879,7 @@ arm_q7_to_float.obj: arm_q7_to_float.c.obj
 
 # target to build an object file
 arm_q7_to_float.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.obj
 .PHONY : arm_q7_to_float.c.obj
 
 arm_q7_to_float.i: arm_q7_to_float.c.i
@@ -887,7 +887,7 @@ arm_q7_to_float.i: arm_q7_to_float.c.i
 
 # target to preprocess a source file
 arm_q7_to_float.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.i
 .PHONY : arm_q7_to_float.c.i
 
 arm_q7_to_float.s: arm_q7_to_float.c.s
@@ -895,7 +895,7 @@ arm_q7_to_float.s: arm_q7_to_float.c.s
 
 # target to generate assembly for a file
 arm_q7_to_float.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_float.c.s
 .PHONY : arm_q7_to_float.c.s
 
 arm_q7_to_q15.obj: arm_q7_to_q15.c.obj
@@ -903,7 +903,7 @@ arm_q7_to_q15.obj: arm_q7_to_q15.c.obj
 
 # target to build an object file
 arm_q7_to_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.obj
 .PHONY : arm_q7_to_q15.c.obj
 
 arm_q7_to_q15.i: arm_q7_to_q15.c.i
@@ -911,7 +911,7 @@ arm_q7_to_q15.i: arm_q7_to_q15.c.i
 
 # target to preprocess a source file
 arm_q7_to_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.i
 .PHONY : arm_q7_to_q15.c.i
 
 arm_q7_to_q15.s: arm_q7_to_q15.c.s
@@ -919,7 +919,7 @@ arm_q7_to_q15.s: arm_q7_to_q15.c.s
 
 # target to generate assembly for a file
 arm_q7_to_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q15.c.s
 .PHONY : arm_q7_to_q15.c.s
 
 arm_q7_to_q31.obj: arm_q7_to_q31.c.obj
@@ -927,7 +927,7 @@ arm_q7_to_q31.obj: arm_q7_to_q31.c.obj
 
 # target to build an object file
 arm_q7_to_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.obj
 .PHONY : arm_q7_to_q31.c.obj
 
 arm_q7_to_q31.i: arm_q7_to_q31.c.i
@@ -935,7 +935,7 @@ arm_q7_to_q31.i: arm_q7_to_q31.c.i
 
 # target to preprocess a source file
 arm_q7_to_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.i
 .PHONY : arm_q7_to_q31.c.i
 
 arm_q7_to_q31.s: arm_q7_to_q31.c.s
@@ -943,7 +943,7 @@ arm_q7_to_q31.s: arm_q7_to_q31.c.s
 
 # target to generate assembly for a file
 arm_q7_to_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_q7_to_q31.c.s
 .PHONY : arm_q7_to_q31.c.s
 
 arm_quick_sort_f32.obj: arm_quick_sort_f32.c.obj
@@ -951,7 +951,7 @@ arm_quick_sort_f32.obj: arm_quick_sort_f32.c.obj
 
 # target to build an object file
 arm_quick_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.obj
 .PHONY : arm_quick_sort_f32.c.obj
 
 arm_quick_sort_f32.i: arm_quick_sort_f32.c.i
@@ -959,7 +959,7 @@ arm_quick_sort_f32.i: arm_quick_sort_f32.c.i
 
 # target to preprocess a source file
 arm_quick_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.i
 .PHONY : arm_quick_sort_f32.c.i
 
 arm_quick_sort_f32.s: arm_quick_sort_f32.c.s
@@ -967,7 +967,7 @@ arm_quick_sort_f32.s: arm_quick_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_quick_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_quick_sort_f32.c.s
 .PHONY : arm_quick_sort_f32.c.s
 
 arm_selection_sort_f32.obj: arm_selection_sort_f32.c.obj
@@ -975,7 +975,7 @@ arm_selection_sort_f32.obj: arm_selection_sort_f32.c.obj
 
 # target to build an object file
 arm_selection_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.obj
 .PHONY : arm_selection_sort_f32.c.obj
 
 arm_selection_sort_f32.i: arm_selection_sort_f32.c.i
@@ -983,7 +983,7 @@ arm_selection_sort_f32.i: arm_selection_sort_f32.c.i
 
 # target to preprocess a source file
 arm_selection_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.i
 .PHONY : arm_selection_sort_f32.c.i
 
 arm_selection_sort_f32.s: arm_selection_sort_f32.c.s
@@ -991,7 +991,7 @@ arm_selection_sort_f32.s: arm_selection_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_selection_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_selection_sort_f32.c.s
 .PHONY : arm_selection_sort_f32.c.s
 
 arm_sort_f32.obj: arm_sort_f32.c.obj
@@ -999,7 +999,7 @@ arm_sort_f32.obj: arm_sort_f32.c.obj
 
 # target to build an object file
 arm_sort_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.obj
 .PHONY : arm_sort_f32.c.obj
 
 arm_sort_f32.i: arm_sort_f32.c.i
@@ -1007,7 +1007,7 @@ arm_sort_f32.i: arm_sort_f32.c.i
 
 # target to preprocess a source file
 arm_sort_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.i
 .PHONY : arm_sort_f32.c.i
 
 arm_sort_f32.s: arm_sort_f32.c.s
@@ -1015,7 +1015,7 @@ arm_sort_f32.s: arm_sort_f32.c.s
 
 # target to generate assembly for a file
 arm_sort_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_f32.c.s
 .PHONY : arm_sort_f32.c.s
 
 arm_sort_init_f32.obj: arm_sort_init_f32.c.obj
@@ -1023,7 +1023,7 @@ arm_sort_init_f32.obj: arm_sort_init_f32.c.obj
 
 # target to build an object file
 arm_sort_init_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.obj
 .PHONY : arm_sort_init_f32.c.obj
 
 arm_sort_init_f32.i: arm_sort_init_f32.c.i
@@ -1031,7 +1031,7 @@ arm_sort_init_f32.i: arm_sort_init_f32.c.i
 
 # target to preprocess a source file
 arm_sort_init_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.i
 .PHONY : arm_sort_init_f32.c.i
 
 arm_sort_init_f32.s: arm_sort_init_f32.c.s
@@ -1039,7 +1039,7 @@ arm_sort_init_f32.s: arm_sort_init_f32.c.s
 
 # target to generate assembly for a file
 arm_sort_init_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_sort_init_f32.c.s
 .PHONY : arm_sort_init_f32.c.s
 
 arm_weighted_sum_f16.obj: arm_weighted_sum_f16.c.obj
@@ -1047,7 +1047,7 @@ arm_weighted_sum_f16.obj: arm_weighted_sum_f16.c.obj
 
 # target to build an object file
 arm_weighted_sum_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.obj
 .PHONY : arm_weighted_sum_f16.c.obj
 
 arm_weighted_sum_f16.i: arm_weighted_sum_f16.c.i
@@ -1055,7 +1055,7 @@ arm_weighted_sum_f16.i: arm_weighted_sum_f16.c.i
 
 # target to preprocess a source file
 arm_weighted_sum_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.i
 .PHONY : arm_weighted_sum_f16.c.i
 
 arm_weighted_sum_f16.s: arm_weighted_sum_f16.c.s
@@ -1063,7 +1063,7 @@ arm_weighted_sum_f16.s: arm_weighted_sum_f16.c.s
 
 # target to generate assembly for a file
 arm_weighted_sum_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f16.c.s
 .PHONY : arm_weighted_sum_f16.c.s
 
 arm_weighted_sum_f32.obj: arm_weighted_sum_f32.c.obj
@@ -1071,7 +1071,7 @@ arm_weighted_sum_f32.obj: arm_weighted_sum_f32.c.obj
 
 # target to build an object file
 arm_weighted_sum_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.obj
 .PHONY : arm_weighted_sum_f32.c.obj
 
 arm_weighted_sum_f32.i: arm_weighted_sum_f32.c.i
@@ -1079,7 +1079,7 @@ arm_weighted_sum_f32.i: arm_weighted_sum_f32.c.i
 
 # target to preprocess a source file
 arm_weighted_sum_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.i
 .PHONY : arm_weighted_sum_f32.c.i
 
 arm_weighted_sum_f32.s: arm_weighted_sum_f32.c.s
@@ -1087,7 +1087,7 @@ arm_weighted_sum_f32.s: arm_weighted_sum_f32.c.s
 
 # target to generate assembly for a file
 arm_weighted_sum_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/SupportFunctions/CMakeFiles/CMSISDSPSupport.dir/arm_weighted_sum_f32.c.s
 .PHONY : arm_weighted_sum_f32.c.s
 
 # Help Target
@@ -1230,6 +1230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

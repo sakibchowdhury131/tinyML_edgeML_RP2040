@@ -19,9 +19,9 @@ lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pi
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
- /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/generated/pico_base/pico/version.h \
+ /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/generated/pico_base/pico/version.h \
  /home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/generated/pico_base/pico/config_autogen.h \
+ /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/generated/pico_base/pico/config_autogen.h \
  /home/sakib/working_dir/railcop/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

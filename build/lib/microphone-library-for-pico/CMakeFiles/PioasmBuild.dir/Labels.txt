@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/CMakeFiles/PioasmBuild
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/CMakeFiles/PioasmBuild.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/CMakeFiles/PioasmBuild-complete.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/build/lib/microphone-library-for-pico/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

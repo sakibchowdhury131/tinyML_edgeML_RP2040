@@ -53,10 +53,10 @@ RM = /home/sakib/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # Include any dependencies generated for this target.
 include lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/depend.make
@@ -72,30 +72,30 @@ include lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/flags.make
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj -MF CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj.d -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj -c /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj"
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj -MF CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj.d -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.obj -c /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.i"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c > CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c > CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.i
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.s"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f32.c.s
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/flags.make
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj -MF CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj.d -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj -c /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj"
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj -MF CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj.d -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj -c /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.i"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c > CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c > CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.i
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.s"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c -o CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.s
 
 # Object files for target CMSISDSPBayes
 CMSISDSPBayes_OBJECTS = \
@@ -109,19 +109,19 @@ lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/libCMSISDSPBayes.a: lib/CMSIS_5/CMSI
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/libCMSISDSPBayes.a: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/arm_gaussian_naive_bayes_predict_f16.c.obj
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/libCMSISDSPBayes.a: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/build.make
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/libCMSISDSPBayes.a: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libCMSISDSPBayes.a"
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -P CMakeFiles/CMSISDSPBayes.dir/cmake_clean_target.cmake
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CMSISDSPBayes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libCMSISDSPBayes.a"
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -P CMakeFiles/CMSISDSPBayes.dir/cmake_clean_target.cmake
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CMSISDSPBayes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/build: lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/libCMSISDSPBayes.a
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/build
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/clean:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -P CMakeFiles/CMSISDSPBayes.dir/cmake_clean.cmake
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions && $(CMAKE_COMMAND) -P CMakeFiles/CMSISDSPBayes.dir/cmake_clean.cmake
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/clean
 
 lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/depend:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/BayesFunctions/CMakeFiles/CMSISDSPBayes.dir/depend
 

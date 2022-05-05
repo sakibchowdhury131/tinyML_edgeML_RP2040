@@ -57,10 +57,10 @@ RM = /home/sakib/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/pico-tflmicro//CMakeFiles/progress.marks
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/pico-tflmicro//CMakeFiles/progress.marks
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/clean
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/rule:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/rule
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/rule
 .PHONY : lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ pico-tflmicro: lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/rule
 
 # fast build rule for target.
 pico-tflmicro/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build
 .PHONY : pico-tflmicro/fast
 
 # Convenience name for target.
 lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/rule:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/rule
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/rule
 .PHONY : lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ pico-tflmicro_test: lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/rule
 
 # fast build rule for target.
 pico-tflmicro_test/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build
 .PHONY : pico-tflmicro_test/fast
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -149,8 +149,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -158,8 +158,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -167,8 +167,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -176,8 +176,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.obj:
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -185,8 +185,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.i: h
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -194,8 +194,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.s: h
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -203,8 +203,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.obj: hom
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -212,8 +212,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.i: home/
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -221,8 +221,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.s: home/
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -230,8 +230,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.obj: home/
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -239,8 +239,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.i: home/sa
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -248,8 +248,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.s: home/sa
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -257,8 +257,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.obj: home
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -266,8 +266,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.i: home/s
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -275,8 +275,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.s: home/s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -284,8 +284,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -293,8 +293,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -302,8 +302,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -311,8 +311,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.obj: 
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -320,8 +320,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.i: ho
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -329,8 +329,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.s: ho
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -338,8 +338,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.obj: hom
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -347,8 +347,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.i: home/
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -356,8 +356,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.s: home/
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -365,8 +365,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.obj: hom
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -374,8 +374,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.i: home/
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -383,8 +383,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.s: home/
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -392,8 +392,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -401,8 +401,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -410,8 +410,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -419,8 +419,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -428,8 +428,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -437,8 +437,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -446,8 +446,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/div
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -455,8 +455,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -464,8 +464,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -473,8 +473,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -482,8 +482,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -491,8 +491,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: 
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -500,8 +500,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: 
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -509,8 +509,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_han
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -518,8 +518,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -527,8 +527,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: 
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -536,8 +536,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: 
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -545,8 +545,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -554,8 +554,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -563,8 +563,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -572,8 +572,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -581,8 +581,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -590,8 +590,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -599,8 +599,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -608,8 +608,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -617,8 +617,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -626,8 +626,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -635,8 +635,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -644,8 +644,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -653,8 +653,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -662,8 +662,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -671,8 +671,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -680,8 +680,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -689,8 +689,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -698,8 +698,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -707,8 +707,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -716,8 +716,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -725,8 +725,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -734,8 +734,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -743,8 +743,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -752,8 +752,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_a
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -761,8 +761,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -770,8 +770,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -779,8 +779,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -788,8 +788,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -797,8 +797,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -806,8 +806,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -815,8 +815,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -824,8 +824,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aea
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -833,8 +833,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -842,8 +842,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -851,8 +851,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -860,8 +860,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -869,8 +869,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -878,8 +878,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -887,8 +887,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -896,8 +896,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -905,8 +905,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -914,8 +914,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -923,8 +923,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -932,8 +932,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -941,8 +941,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -950,8 +950,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -959,8 +959,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -968,8 +968,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -977,8 +977,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -986,8 +986,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -995,8 +995,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1004,8 +1004,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1013,8 +1013,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1022,8 +1022,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1031,8 +1031,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1040,8 +1040,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1049,8 +1049,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/c
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1058,8 +1058,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1067,8 +1067,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1076,8 +1076,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1085,8 +1085,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1094,8 +1094,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: 
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1103,8 +1103,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: 
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1112,8 +1112,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1121,8 +1121,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1130,8 +1130,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1139,8 +1139,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
 # target to build an object file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1148,8 +1148,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1157,8 +1157,8 @@ home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
 home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/sakib/working_dir/railcop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 src/tensorflow/lite/c/common.obj: src/tensorflow/lite/c/common.c.obj
@@ -1166,7 +1166,7 @@ src/tensorflow/lite/c/common.obj: src/tensorflow/lite/c/common.c.obj
 
 # target to build an object file
 src/tensorflow/lite/c/common.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.obj
 .PHONY : src/tensorflow/lite/c/common.c.obj
 
 src/tensorflow/lite/c/common.i: src/tensorflow/lite/c/common.c.i
@@ -1174,7 +1174,7 @@ src/tensorflow/lite/c/common.i: src/tensorflow/lite/c/common.c.i
 
 # target to preprocess a source file
 src/tensorflow/lite/c/common.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.i
 .PHONY : src/tensorflow/lite/c/common.c.i
 
 src/tensorflow/lite/c/common.s: src/tensorflow/lite/c/common.c.s
@@ -1182,7 +1182,7 @@ src/tensorflow/lite/c/common.s: src/tensorflow/lite/c/common.c.s
 
 # target to generate assembly for a file
 src/tensorflow/lite/c/common.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/c/common.c.s
 .PHONY : src/tensorflow/lite/c/common.c.s
 
 src/tensorflow/lite/core/api/error_reporter.obj: src/tensorflow/lite/core/api/error_reporter.cpp.obj
@@ -1190,7 +1190,7 @@ src/tensorflow/lite/core/api/error_reporter.obj: src/tensorflow/lite/core/api/er
 
 # target to build an object file
 src/tensorflow/lite/core/api/error_reporter.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.obj
 .PHONY : src/tensorflow/lite/core/api/error_reporter.cpp.obj
 
 src/tensorflow/lite/core/api/error_reporter.i: src/tensorflow/lite/core/api/error_reporter.cpp.i
@@ -1198,7 +1198,7 @@ src/tensorflow/lite/core/api/error_reporter.i: src/tensorflow/lite/core/api/erro
 
 # target to preprocess a source file
 src/tensorflow/lite/core/api/error_reporter.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.i
 .PHONY : src/tensorflow/lite/core/api/error_reporter.cpp.i
 
 src/tensorflow/lite/core/api/error_reporter.s: src/tensorflow/lite/core/api/error_reporter.cpp.s
@@ -1206,7 +1206,7 @@ src/tensorflow/lite/core/api/error_reporter.s: src/tensorflow/lite/core/api/erro
 
 # target to generate assembly for a file
 src/tensorflow/lite/core/api/error_reporter.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/error_reporter.cpp.s
 .PHONY : src/tensorflow/lite/core/api/error_reporter.cpp.s
 
 src/tensorflow/lite/core/api/flatbuffer_conversions.obj: src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.obj
@@ -1214,7 +1214,7 @@ src/tensorflow/lite/core/api/flatbuffer_conversions.obj: src/tensorflow/lite/cor
 
 # target to build an object file
 src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.obj
 .PHONY : src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.obj
 
 src/tensorflow/lite/core/api/flatbuffer_conversions.i: src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.i
@@ -1222,7 +1222,7 @@ src/tensorflow/lite/core/api/flatbuffer_conversions.i: src/tensorflow/lite/core/
 
 # target to preprocess a source file
 src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.i
 .PHONY : src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.i
 
 src/tensorflow/lite/core/api/flatbuffer_conversions.s: src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.s
@@ -1230,7 +1230,7 @@ src/tensorflow/lite/core/api/flatbuffer_conversions.s: src/tensorflow/lite/core/
 
 # target to generate assembly for a file
 src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.s
 .PHONY : src/tensorflow/lite/core/api/flatbuffer_conversions.cpp.s
 
 src/tensorflow/lite/core/api/op_resolver.obj: src/tensorflow/lite/core/api/op_resolver.cpp.obj
@@ -1238,7 +1238,7 @@ src/tensorflow/lite/core/api/op_resolver.obj: src/tensorflow/lite/core/api/op_re
 
 # target to build an object file
 src/tensorflow/lite/core/api/op_resolver.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.obj
 .PHONY : src/tensorflow/lite/core/api/op_resolver.cpp.obj
 
 src/tensorflow/lite/core/api/op_resolver.i: src/tensorflow/lite/core/api/op_resolver.cpp.i
@@ -1246,7 +1246,7 @@ src/tensorflow/lite/core/api/op_resolver.i: src/tensorflow/lite/core/api/op_reso
 
 # target to preprocess a source file
 src/tensorflow/lite/core/api/op_resolver.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.i
 .PHONY : src/tensorflow/lite/core/api/op_resolver.cpp.i
 
 src/tensorflow/lite/core/api/op_resolver.s: src/tensorflow/lite/core/api/op_resolver.cpp.s
@@ -1254,7 +1254,7 @@ src/tensorflow/lite/core/api/op_resolver.s: src/tensorflow/lite/core/api/op_reso
 
 # target to generate assembly for a file
 src/tensorflow/lite/core/api/op_resolver.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/op_resolver.cpp.s
 .PHONY : src/tensorflow/lite/core/api/op_resolver.cpp.s
 
 src/tensorflow/lite/core/api/tensor_utils.obj: src/tensorflow/lite/core/api/tensor_utils.cpp.obj
@@ -1262,7 +1262,7 @@ src/tensorflow/lite/core/api/tensor_utils.obj: src/tensorflow/lite/core/api/tens
 
 # target to build an object file
 src/tensorflow/lite/core/api/tensor_utils.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.obj
 .PHONY : src/tensorflow/lite/core/api/tensor_utils.cpp.obj
 
 src/tensorflow/lite/core/api/tensor_utils.i: src/tensorflow/lite/core/api/tensor_utils.cpp.i
@@ -1270,7 +1270,7 @@ src/tensorflow/lite/core/api/tensor_utils.i: src/tensorflow/lite/core/api/tensor
 
 # target to preprocess a source file
 src/tensorflow/lite/core/api/tensor_utils.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.i
 .PHONY : src/tensorflow/lite/core/api/tensor_utils.cpp.i
 
 src/tensorflow/lite/core/api/tensor_utils.s: src/tensorflow/lite/core/api/tensor_utils.cpp.s
@@ -1278,7 +1278,7 @@ src/tensorflow/lite/core/api/tensor_utils.s: src/tensorflow/lite/core/api/tensor
 
 # target to generate assembly for a file
 src/tensorflow/lite/core/api/tensor_utils.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/core/api/tensor_utils.cpp.s
 .PHONY : src/tensorflow/lite/core/api/tensor_utils.cpp.s
 
 src/tensorflow/lite/kernels/internal/quantization_util.obj: src/tensorflow/lite/kernels/internal/quantization_util.cpp.obj
@@ -1286,7 +1286,7 @@ src/tensorflow/lite/kernels/internal/quantization_util.obj: src/tensorflow/lite/
 
 # target to build an object file
 src/tensorflow/lite/kernels/internal/quantization_util.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.obj
 .PHONY : src/tensorflow/lite/kernels/internal/quantization_util.cpp.obj
 
 src/tensorflow/lite/kernels/internal/quantization_util.i: src/tensorflow/lite/kernels/internal/quantization_util.cpp.i
@@ -1294,7 +1294,7 @@ src/tensorflow/lite/kernels/internal/quantization_util.i: src/tensorflow/lite/ke
 
 # target to preprocess a source file
 src/tensorflow/lite/kernels/internal/quantization_util.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.i
 .PHONY : src/tensorflow/lite/kernels/internal/quantization_util.cpp.i
 
 src/tensorflow/lite/kernels/internal/quantization_util.s: src/tensorflow/lite/kernels/internal/quantization_util.cpp.s
@@ -1302,7 +1302,7 @@ src/tensorflow/lite/kernels/internal/quantization_util.s: src/tensorflow/lite/ke
 
 # target to generate assembly for a file
 src/tensorflow/lite/kernels/internal/quantization_util.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/internal/quantization_util.cpp.s
 .PHONY : src/tensorflow/lite/kernels/internal/quantization_util.cpp.s
 
 src/tensorflow/lite/kernels/kernel_util.obj: src/tensorflow/lite/kernels/kernel_util.cpp.obj
@@ -1310,7 +1310,7 @@ src/tensorflow/lite/kernels/kernel_util.obj: src/tensorflow/lite/kernels/kernel_
 
 # target to build an object file
 src/tensorflow/lite/kernels/kernel_util.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.obj
 .PHONY : src/tensorflow/lite/kernels/kernel_util.cpp.obj
 
 src/tensorflow/lite/kernels/kernel_util.i: src/tensorflow/lite/kernels/kernel_util.cpp.i
@@ -1318,7 +1318,7 @@ src/tensorflow/lite/kernels/kernel_util.i: src/tensorflow/lite/kernels/kernel_ut
 
 # target to preprocess a source file
 src/tensorflow/lite/kernels/kernel_util.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.i
 .PHONY : src/tensorflow/lite/kernels/kernel_util.cpp.i
 
 src/tensorflow/lite/kernels/kernel_util.s: src/tensorflow/lite/kernels/kernel_util.cpp.s
@@ -1326,7 +1326,7 @@ src/tensorflow/lite/kernels/kernel_util.s: src/tensorflow/lite/kernels/kernel_ut
 
 # target to generate assembly for a file
 src/tensorflow/lite/kernels/kernel_util.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/kernels/kernel_util.cpp.s
 .PHONY : src/tensorflow/lite/kernels/kernel_util.cpp.s
 
 src/tensorflow/lite/micro/all_ops_resolver.obj: src/tensorflow/lite/micro/all_ops_resolver.cpp.obj
@@ -1334,7 +1334,7 @@ src/tensorflow/lite/micro/all_ops_resolver.obj: src/tensorflow/lite/micro/all_op
 
 # target to build an object file
 src/tensorflow/lite/micro/all_ops_resolver.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.obj
 .PHONY : src/tensorflow/lite/micro/all_ops_resolver.cpp.obj
 
 src/tensorflow/lite/micro/all_ops_resolver.i: src/tensorflow/lite/micro/all_ops_resolver.cpp.i
@@ -1342,7 +1342,7 @@ src/tensorflow/lite/micro/all_ops_resolver.i: src/tensorflow/lite/micro/all_ops_
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/all_ops_resolver.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.i
 .PHONY : src/tensorflow/lite/micro/all_ops_resolver.cpp.i
 
 src/tensorflow/lite/micro/all_ops_resolver.s: src/tensorflow/lite/micro/all_ops_resolver.cpp.s
@@ -1350,7 +1350,7 @@ src/tensorflow/lite/micro/all_ops_resolver.s: src/tensorflow/lite/micro/all_ops_
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/all_ops_resolver.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/all_ops_resolver.cpp.s
 .PHONY : src/tensorflow/lite/micro/all_ops_resolver.cpp.s
 
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.obj: src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.obj
@@ -1358,7 +1358,7 @@ src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.obj: src/tenso
 
 # target to build an object file
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.obj
 .PHONY : src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.obj
 
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.i: src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.i
@@ -1366,7 +1366,7 @@ src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.i: src/tensorf
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.i
 .PHONY : src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.i
 
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.s: src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.s
@@ -1374,7 +1374,7 @@ src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.s: src/tensorf
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.s
 .PHONY : src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp.s
 
 src/tensorflow/lite/micro/kernels/activations.obj: src/tensorflow/lite/micro/kernels/activations.cpp.obj
@@ -1382,7 +1382,7 @@ src/tensorflow/lite/micro/kernels/activations.obj: src/tensorflow/lite/micro/ker
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/activations.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/activations.cpp.obj
 
 src/tensorflow/lite/micro/kernels/activations.i: src/tensorflow/lite/micro/kernels/activations.cpp.i
@@ -1390,7 +1390,7 @@ src/tensorflow/lite/micro/kernels/activations.i: src/tensorflow/lite/micro/kerne
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/activations.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/activations.cpp.i
 
 src/tensorflow/lite/micro/kernels/activations.s: src/tensorflow/lite/micro/kernels/activations.cpp.s
@@ -1398,7 +1398,7 @@ src/tensorflow/lite/micro/kernels/activations.s: src/tensorflow/lite/micro/kerne
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/activations.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/activations.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/activations.cpp.s
 
 src/tensorflow/lite/micro/kernels/arg_min_max.obj: src/tensorflow/lite/micro/kernels/arg_min_max.cpp.obj
@@ -1406,7 +1406,7 @@ src/tensorflow/lite/micro/kernels/arg_min_max.obj: src/tensorflow/lite/micro/ker
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/arg_min_max.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/arg_min_max.cpp.obj
 
 src/tensorflow/lite/micro/kernels/arg_min_max.i: src/tensorflow/lite/micro/kernels/arg_min_max.cpp.i
@@ -1414,7 +1414,7 @@ src/tensorflow/lite/micro/kernels/arg_min_max.i: src/tensorflow/lite/micro/kerne
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/arg_min_max.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/arg_min_max.cpp.i
 
 src/tensorflow/lite/micro/kernels/arg_min_max.s: src/tensorflow/lite/micro/kernels/arg_min_max.cpp.s
@@ -1422,7 +1422,7 @@ src/tensorflow/lite/micro/kernels/arg_min_max.s: src/tensorflow/lite/micro/kerne
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/arg_min_max.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/arg_min_max.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/arg_min_max.cpp.s
 
 src/tensorflow/lite/micro/kernels/ceil.obj: src/tensorflow/lite/micro/kernels/ceil.cpp.obj
@@ -1430,7 +1430,7 @@ src/tensorflow/lite/micro/kernels/ceil.obj: src/tensorflow/lite/micro/kernels/ce
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/ceil.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/ceil.cpp.obj
 
 src/tensorflow/lite/micro/kernels/ceil.i: src/tensorflow/lite/micro/kernels/ceil.cpp.i
@@ -1438,7 +1438,7 @@ src/tensorflow/lite/micro/kernels/ceil.i: src/tensorflow/lite/micro/kernels/ceil
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/ceil.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/ceil.cpp.i
 
 src/tensorflow/lite/micro/kernels/ceil.s: src/tensorflow/lite/micro/kernels/ceil.cpp.s
@@ -1446,7 +1446,7 @@ src/tensorflow/lite/micro/kernels/ceil.s: src/tensorflow/lite/micro/kernels/ceil
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/ceil.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ceil.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/ceil.cpp.s
 
 src/tensorflow/lite/micro/kernels/circular_buffer.obj: src/tensorflow/lite/micro/kernels/circular_buffer.cpp.obj
@@ -1454,7 +1454,7 @@ src/tensorflow/lite/micro/kernels/circular_buffer.obj: src/tensorflow/lite/micro
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/circular_buffer.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/circular_buffer.cpp.obj
 
 src/tensorflow/lite/micro/kernels/circular_buffer.i: src/tensorflow/lite/micro/kernels/circular_buffer.cpp.i
@@ -1462,7 +1462,7 @@ src/tensorflow/lite/micro/kernels/circular_buffer.i: src/tensorflow/lite/micro/k
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/circular_buffer.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/circular_buffer.cpp.i
 
 src/tensorflow/lite/micro/kernels/circular_buffer.s: src/tensorflow/lite/micro/kernels/circular_buffer.cpp.s
@@ -1470,7 +1470,7 @@ src/tensorflow/lite/micro/kernels/circular_buffer.s: src/tensorflow/lite/micro/k
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/circular_buffer.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/circular_buffer.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/circular_buffer.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.obj
@@ -1478,7 +1478,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/add.obj: src/tensorflow/lite/micro/ke
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.i: src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.i
@@ -1486,7 +1486,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/add.i: src/tensorflow/lite/micro/kern
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.s: src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.s
@@ -1494,7 +1494,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/add.s: src/tensorflow/lite/micro/kern
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.obj
@@ -1502,7 +1502,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/conv.obj: src/tensorflow/lite/micro/k
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.i: src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.i
@@ -1510,7 +1510,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/conv.i: src/tensorflow/lite/micro/ker
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.s: src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.s
@@ -1518,7 +1518,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/conv.s: src/tensorflow/lite/micro/ker
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.obj
@@ -1526,7 +1526,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.obj: src/tensorflow/li
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.i: src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.i
@@ -1534,7 +1534,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.i: src/tensorflow/lite
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.s: src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.s
@@ -1542,7 +1542,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.s: src/tensorflow/lite
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.obj
@@ -1550,7 +1550,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.obj: src/tensorflow/l
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.i: src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.i
@@ -1558,7 +1558,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.i: src/tensorflow/lit
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.s: src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.s
@@ -1566,7 +1566,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.s: src/tensorflow/lit
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.obj
@@ -1574,7 +1574,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/mul.obj: src/tensorflow/lite/micro/ke
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.i: src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.i
@@ -1582,7 +1582,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/mul.i: src/tensorflow/lite/micro/kern
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.s: src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.s
@@ -1590,7 +1590,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/mul.s: src/tensorflow/lite/micro/kern
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.obj
@@ -1598,7 +1598,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.obj: src/tensorflow/lite/micr
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.i: src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.i
@@ -1606,7 +1606,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.i: src/tensorflow/lite/micro/
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.s: src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.s
@@ -1614,7 +1614,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.s: src/tensorflow/lite/micro/
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.obj
@@ -1622,7 +1622,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.obj: src/tensorflow/lite/micr
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.i: src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.i
@@ -1630,7 +1630,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.i: src/tensorflow/lite/micro/
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.s: src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.s
@@ -1638,7 +1638,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.s: src/tensorflow/lite/micro/
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp.s
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.obj: src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.obj
@@ -1646,7 +1646,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.obj: src/tensorflow/lite/micro/k
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.obj
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.i: src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.i
@@ -1654,7 +1654,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.i: src/tensorflow/lite/micro/ker
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.i
 
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.s: src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.s
@@ -1662,7 +1662,7 @@ src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.s: src/tensorflow/lite/micro/ker
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp.s
 
 src/tensorflow/lite/micro/kernels/comparisons.obj: src/tensorflow/lite/micro/kernels/comparisons.cpp.obj
@@ -1670,7 +1670,7 @@ src/tensorflow/lite/micro/kernels/comparisons.obj: src/tensorflow/lite/micro/ker
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/comparisons.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/comparisons.cpp.obj
 
 src/tensorflow/lite/micro/kernels/comparisons.i: src/tensorflow/lite/micro/kernels/comparisons.cpp.i
@@ -1678,7 +1678,7 @@ src/tensorflow/lite/micro/kernels/comparisons.i: src/tensorflow/lite/micro/kerne
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/comparisons.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/comparisons.cpp.i
 
 src/tensorflow/lite/micro/kernels/comparisons.s: src/tensorflow/lite/micro/kernels/comparisons.cpp.s
@@ -1686,7 +1686,7 @@ src/tensorflow/lite/micro/kernels/comparisons.s: src/tensorflow/lite/micro/kerne
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/comparisons.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/comparisons.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/comparisons.cpp.s
 
 src/tensorflow/lite/micro/kernels/concatenation.obj: src/tensorflow/lite/micro/kernels/concatenation.cpp.obj
@@ -1694,7 +1694,7 @@ src/tensorflow/lite/micro/kernels/concatenation.obj: src/tensorflow/lite/micro/k
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/concatenation.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/concatenation.cpp.obj
 
 src/tensorflow/lite/micro/kernels/concatenation.i: src/tensorflow/lite/micro/kernels/concatenation.cpp.i
@@ -1702,7 +1702,7 @@ src/tensorflow/lite/micro/kernels/concatenation.i: src/tensorflow/lite/micro/ker
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/concatenation.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/concatenation.cpp.i
 
 src/tensorflow/lite/micro/kernels/concatenation.s: src/tensorflow/lite/micro/kernels/concatenation.cpp.s
@@ -1710,7 +1710,7 @@ src/tensorflow/lite/micro/kernels/concatenation.s: src/tensorflow/lite/micro/ker
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/concatenation.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/concatenation.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/concatenation.cpp.s
 
 src/tensorflow/lite/micro/kernels/dequantize.obj: src/tensorflow/lite/micro/kernels/dequantize.cpp.obj
@@ -1718,7 +1718,7 @@ src/tensorflow/lite/micro/kernels/dequantize.obj: src/tensorflow/lite/micro/kern
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/dequantize.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/dequantize.cpp.obj
 
 src/tensorflow/lite/micro/kernels/dequantize.i: src/tensorflow/lite/micro/kernels/dequantize.cpp.i
@@ -1726,7 +1726,7 @@ src/tensorflow/lite/micro/kernels/dequantize.i: src/tensorflow/lite/micro/kernel
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/dequantize.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/dequantize.cpp.i
 
 src/tensorflow/lite/micro/kernels/dequantize.s: src/tensorflow/lite/micro/kernels/dequantize.cpp.s
@@ -1734,7 +1734,7 @@ src/tensorflow/lite/micro/kernels/dequantize.s: src/tensorflow/lite/micro/kernel
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/dequantize.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/dequantize.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/dequantize.cpp.s
 
 src/tensorflow/lite/micro/kernels/detection_postprocess.obj: src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.obj
@@ -1742,7 +1742,7 @@ src/tensorflow/lite/micro/kernels/detection_postprocess.obj: src/tensorflow/lite
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.obj
 
 src/tensorflow/lite/micro/kernels/detection_postprocess.i: src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.i
@@ -1750,7 +1750,7 @@ src/tensorflow/lite/micro/kernels/detection_postprocess.i: src/tensorflow/lite/m
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.i
 
 src/tensorflow/lite/micro/kernels/detection_postprocess.s: src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.s
@@ -1758,7 +1758,7 @@ src/tensorflow/lite/micro/kernels/detection_postprocess.s: src/tensorflow/lite/m
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/detection_postprocess.cpp.s
 
 src/tensorflow/lite/micro/kernels/elementwise.obj: src/tensorflow/lite/micro/kernels/elementwise.cpp.obj
@@ -1766,7 +1766,7 @@ src/tensorflow/lite/micro/kernels/elementwise.obj: src/tensorflow/lite/micro/ker
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/elementwise.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/elementwise.cpp.obj
 
 src/tensorflow/lite/micro/kernels/elementwise.i: src/tensorflow/lite/micro/kernels/elementwise.cpp.i
@@ -1774,7 +1774,7 @@ src/tensorflow/lite/micro/kernels/elementwise.i: src/tensorflow/lite/micro/kerne
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/elementwise.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/elementwise.cpp.i
 
 src/tensorflow/lite/micro/kernels/elementwise.s: src/tensorflow/lite/micro/kernels/elementwise.cpp.s
@@ -1782,7 +1782,7 @@ src/tensorflow/lite/micro/kernels/elementwise.s: src/tensorflow/lite/micro/kerne
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/elementwise.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/elementwise.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/elementwise.cpp.s
 
 src/tensorflow/lite/micro/kernels/ethosu.obj: src/tensorflow/lite/micro/kernels/ethosu.cpp.obj
@@ -1790,7 +1790,7 @@ src/tensorflow/lite/micro/kernels/ethosu.obj: src/tensorflow/lite/micro/kernels/
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/ethosu.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/ethosu.cpp.obj
 
 src/tensorflow/lite/micro/kernels/ethosu.i: src/tensorflow/lite/micro/kernels/ethosu.cpp.i
@@ -1798,7 +1798,7 @@ src/tensorflow/lite/micro/kernels/ethosu.i: src/tensorflow/lite/micro/kernels/et
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/ethosu.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/ethosu.cpp.i
 
 src/tensorflow/lite/micro/kernels/ethosu.s: src/tensorflow/lite/micro/kernels/ethosu.cpp.s
@@ -1806,7 +1806,7 @@ src/tensorflow/lite/micro/kernels/ethosu.s: src/tensorflow/lite/micro/kernels/et
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/ethosu.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/ethosu.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/ethosu.cpp.s
 
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.obj: src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.obj
@@ -1814,7 +1814,7 @@ src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.obj: src/tensorflow
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.obj
 
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.i: src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.i
@@ -1822,7 +1822,7 @@ src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.i: src/tensorflow/l
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.i
 
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.s: src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.s
@@ -1830,7 +1830,7 @@ src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.s: src/tensorflow/l
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp.s
 
 src/tensorflow/lite/micro/kernels/floor.obj: src/tensorflow/lite/micro/kernels/floor.cpp.obj
@@ -1838,7 +1838,7 @@ src/tensorflow/lite/micro/kernels/floor.obj: src/tensorflow/lite/micro/kernels/f
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/floor.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/floor.cpp.obj
 
 src/tensorflow/lite/micro/kernels/floor.i: src/tensorflow/lite/micro/kernels/floor.cpp.i
@@ -1846,7 +1846,7 @@ src/tensorflow/lite/micro/kernels/floor.i: src/tensorflow/lite/micro/kernels/flo
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/floor.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/floor.cpp.i
 
 src/tensorflow/lite/micro/kernels/floor.s: src/tensorflow/lite/micro/kernels/floor.cpp.s
@@ -1854,7 +1854,7 @@ src/tensorflow/lite/micro/kernels/floor.s: src/tensorflow/lite/micro/kernels/flo
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/floor.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/floor.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/floor.cpp.s
 
 src/tensorflow/lite/micro/kernels/hard_swish.obj: src/tensorflow/lite/micro/kernels/hard_swish.cpp.obj
@@ -1862,7 +1862,7 @@ src/tensorflow/lite/micro/kernels/hard_swish.obj: src/tensorflow/lite/micro/kern
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/hard_swish.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/hard_swish.cpp.obj
 
 src/tensorflow/lite/micro/kernels/hard_swish.i: src/tensorflow/lite/micro/kernels/hard_swish.cpp.i
@@ -1870,7 +1870,7 @@ src/tensorflow/lite/micro/kernels/hard_swish.i: src/tensorflow/lite/micro/kernel
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/hard_swish.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/hard_swish.cpp.i
 
 src/tensorflow/lite/micro/kernels/hard_swish.s: src/tensorflow/lite/micro/kernels/hard_swish.cpp.s
@@ -1878,7 +1878,7 @@ src/tensorflow/lite/micro/kernels/hard_swish.s: src/tensorflow/lite/micro/kernel
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/hard_swish.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/hard_swish.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/hard_swish.cpp.s
 
 src/tensorflow/lite/micro/kernels/kernel_runner.obj: src/tensorflow/lite/micro/kernels/kernel_runner.cpp.obj
@@ -1886,7 +1886,7 @@ src/tensorflow/lite/micro/kernels/kernel_runner.obj: src/tensorflow/lite/micro/k
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/kernel_runner.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_runner.cpp.obj
 
 src/tensorflow/lite/micro/kernels/kernel_runner.i: src/tensorflow/lite/micro/kernels/kernel_runner.cpp.i
@@ -1894,7 +1894,7 @@ src/tensorflow/lite/micro/kernels/kernel_runner.i: src/tensorflow/lite/micro/ker
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/kernel_runner.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_runner.cpp.i
 
 src/tensorflow/lite/micro/kernels/kernel_runner.s: src/tensorflow/lite/micro/kernels/kernel_runner.cpp.s
@@ -1902,7 +1902,7 @@ src/tensorflow/lite/micro/kernels/kernel_runner.s: src/tensorflow/lite/micro/ker
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/kernel_runner.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_runner.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_runner.cpp.s
 
 src/tensorflow/lite/micro/kernels/kernel_util.obj: src/tensorflow/lite/micro/kernels/kernel_util.cpp.obj
@@ -1910,7 +1910,7 @@ src/tensorflow/lite/micro/kernels/kernel_util.obj: src/tensorflow/lite/micro/ker
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/kernel_util.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_util.cpp.obj
 
 src/tensorflow/lite/micro/kernels/kernel_util.i: src/tensorflow/lite/micro/kernels/kernel_util.cpp.i
@@ -1918,7 +1918,7 @@ src/tensorflow/lite/micro/kernels/kernel_util.i: src/tensorflow/lite/micro/kerne
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/kernel_util.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_util.cpp.i
 
 src/tensorflow/lite/micro/kernels/kernel_util.s: src/tensorflow/lite/micro/kernels/kernel_util.cpp.s
@@ -1926,7 +1926,7 @@ src/tensorflow/lite/micro/kernels/kernel_util.s: src/tensorflow/lite/micro/kerne
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/kernel_util.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/kernel_util.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/kernel_util.cpp.s
 
 src/tensorflow/lite/micro/kernels/l2norm.obj: src/tensorflow/lite/micro/kernels/l2norm.cpp.obj
@@ -1934,7 +1934,7 @@ src/tensorflow/lite/micro/kernels/l2norm.obj: src/tensorflow/lite/micro/kernels/
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/l2norm.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/l2norm.cpp.obj
 
 src/tensorflow/lite/micro/kernels/l2norm.i: src/tensorflow/lite/micro/kernels/l2norm.cpp.i
@@ -1942,7 +1942,7 @@ src/tensorflow/lite/micro/kernels/l2norm.i: src/tensorflow/lite/micro/kernels/l2
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/l2norm.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/l2norm.cpp.i
 
 src/tensorflow/lite/micro/kernels/l2norm.s: src/tensorflow/lite/micro/kernels/l2norm.cpp.s
@@ -1950,7 +1950,7 @@ src/tensorflow/lite/micro/kernels/l2norm.s: src/tensorflow/lite/micro/kernels/l2
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/l2norm.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/l2norm.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/l2norm.cpp.s
 
 src/tensorflow/lite/micro/kernels/logical.obj: src/tensorflow/lite/micro/kernels/logical.cpp.obj
@@ -1958,7 +1958,7 @@ src/tensorflow/lite/micro/kernels/logical.obj: src/tensorflow/lite/micro/kernels
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/logical.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/logical.cpp.obj
 
 src/tensorflow/lite/micro/kernels/logical.i: src/tensorflow/lite/micro/kernels/logical.cpp.i
@@ -1966,7 +1966,7 @@ src/tensorflow/lite/micro/kernels/logical.i: src/tensorflow/lite/micro/kernels/l
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/logical.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/logical.cpp.i
 
 src/tensorflow/lite/micro/kernels/logical.s: src/tensorflow/lite/micro/kernels/logical.cpp.s
@@ -1974,7 +1974,7 @@ src/tensorflow/lite/micro/kernels/logical.s: src/tensorflow/lite/micro/kernels/l
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/logical.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logical.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/logical.cpp.s
 
 src/tensorflow/lite/micro/kernels/logistic.obj: src/tensorflow/lite/micro/kernels/logistic.cpp.obj
@@ -1982,7 +1982,7 @@ src/tensorflow/lite/micro/kernels/logistic.obj: src/tensorflow/lite/micro/kernel
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/logistic.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/logistic.cpp.obj
 
 src/tensorflow/lite/micro/kernels/logistic.i: src/tensorflow/lite/micro/kernels/logistic.cpp.i
@@ -1990,7 +1990,7 @@ src/tensorflow/lite/micro/kernels/logistic.i: src/tensorflow/lite/micro/kernels/
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/logistic.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/logistic.cpp.i
 
 src/tensorflow/lite/micro/kernels/logistic.s: src/tensorflow/lite/micro/kernels/logistic.cpp.s
@@ -1998,7 +1998,7 @@ src/tensorflow/lite/micro/kernels/logistic.s: src/tensorflow/lite/micro/kernels/
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/logistic.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/logistic.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/logistic.cpp.s
 
 src/tensorflow/lite/micro/kernels/maximum_minimum.obj: src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.obj
@@ -2006,7 +2006,7 @@ src/tensorflow/lite/micro/kernels/maximum_minimum.obj: src/tensorflow/lite/micro
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.obj
 
 src/tensorflow/lite/micro/kernels/maximum_minimum.i: src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.i
@@ -2014,7 +2014,7 @@ src/tensorflow/lite/micro/kernels/maximum_minimum.i: src/tensorflow/lite/micro/k
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.i
 
 src/tensorflow/lite/micro/kernels/maximum_minimum.s: src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.s
@@ -2022,7 +2022,7 @@ src/tensorflow/lite/micro/kernels/maximum_minimum.s: src/tensorflow/lite/micro/k
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/maximum_minimum.cpp.s
 
 src/tensorflow/lite/micro/kernels/neg.obj: src/tensorflow/lite/micro/kernels/neg.cpp.obj
@@ -2030,7 +2030,7 @@ src/tensorflow/lite/micro/kernels/neg.obj: src/tensorflow/lite/micro/kernels/neg
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/neg.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/neg.cpp.obj
 
 src/tensorflow/lite/micro/kernels/neg.i: src/tensorflow/lite/micro/kernels/neg.cpp.i
@@ -2038,7 +2038,7 @@ src/tensorflow/lite/micro/kernels/neg.i: src/tensorflow/lite/micro/kernels/neg.c
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/neg.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/neg.cpp.i
 
 src/tensorflow/lite/micro/kernels/neg.s: src/tensorflow/lite/micro/kernels/neg.cpp.s
@@ -2046,7 +2046,7 @@ src/tensorflow/lite/micro/kernels/neg.s: src/tensorflow/lite/micro/kernels/neg.c
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/neg.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/neg.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/neg.cpp.s
 
 src/tensorflow/lite/micro/kernels/pack.obj: src/tensorflow/lite/micro/kernels/pack.cpp.obj
@@ -2054,7 +2054,7 @@ src/tensorflow/lite/micro/kernels/pack.obj: src/tensorflow/lite/micro/kernels/pa
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/pack.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/pack.cpp.obj
 
 src/tensorflow/lite/micro/kernels/pack.i: src/tensorflow/lite/micro/kernels/pack.cpp.i
@@ -2062,7 +2062,7 @@ src/tensorflow/lite/micro/kernels/pack.i: src/tensorflow/lite/micro/kernels/pack
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/pack.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/pack.cpp.i
 
 src/tensorflow/lite/micro/kernels/pack.s: src/tensorflow/lite/micro/kernels/pack.cpp.s
@@ -2070,7 +2070,7 @@ src/tensorflow/lite/micro/kernels/pack.s: src/tensorflow/lite/micro/kernels/pack
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/pack.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pack.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/pack.cpp.s
 
 src/tensorflow/lite/micro/kernels/pad.obj: src/tensorflow/lite/micro/kernels/pad.cpp.obj
@@ -2078,7 +2078,7 @@ src/tensorflow/lite/micro/kernels/pad.obj: src/tensorflow/lite/micro/kernels/pad
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/pad.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/pad.cpp.obj
 
 src/tensorflow/lite/micro/kernels/pad.i: src/tensorflow/lite/micro/kernels/pad.cpp.i
@@ -2086,7 +2086,7 @@ src/tensorflow/lite/micro/kernels/pad.i: src/tensorflow/lite/micro/kernels/pad.c
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/pad.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/pad.cpp.i
 
 src/tensorflow/lite/micro/kernels/pad.s: src/tensorflow/lite/micro/kernels/pad.cpp.s
@@ -2094,7 +2094,7 @@ src/tensorflow/lite/micro/kernels/pad.s: src/tensorflow/lite/micro/kernels/pad.c
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/pad.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/pad.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/pad.cpp.s
 
 src/tensorflow/lite/micro/kernels/prelu.obj: src/tensorflow/lite/micro/kernels/prelu.cpp.obj
@@ -2102,7 +2102,7 @@ src/tensorflow/lite/micro/kernels/prelu.obj: src/tensorflow/lite/micro/kernels/p
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/prelu.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/prelu.cpp.obj
 
 src/tensorflow/lite/micro/kernels/prelu.i: src/tensorflow/lite/micro/kernels/prelu.cpp.i
@@ -2110,7 +2110,7 @@ src/tensorflow/lite/micro/kernels/prelu.i: src/tensorflow/lite/micro/kernels/pre
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/prelu.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/prelu.cpp.i
 
 src/tensorflow/lite/micro/kernels/prelu.s: src/tensorflow/lite/micro/kernels/prelu.cpp.s
@@ -2118,7 +2118,7 @@ src/tensorflow/lite/micro/kernels/prelu.s: src/tensorflow/lite/micro/kernels/pre
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/prelu.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/prelu.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/prelu.cpp.s
 
 src/tensorflow/lite/micro/kernels/quantize.obj: src/tensorflow/lite/micro/kernels/quantize.cpp.obj
@@ -2126,7 +2126,7 @@ src/tensorflow/lite/micro/kernels/quantize.obj: src/tensorflow/lite/micro/kernel
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/quantize.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/quantize.cpp.obj
 
 src/tensorflow/lite/micro/kernels/quantize.i: src/tensorflow/lite/micro/kernels/quantize.cpp.i
@@ -2134,7 +2134,7 @@ src/tensorflow/lite/micro/kernels/quantize.i: src/tensorflow/lite/micro/kernels/
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/quantize.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/quantize.cpp.i
 
 src/tensorflow/lite/micro/kernels/quantize.s: src/tensorflow/lite/micro/kernels/quantize.cpp.s
@@ -2142,7 +2142,7 @@ src/tensorflow/lite/micro/kernels/quantize.s: src/tensorflow/lite/micro/kernels/
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/quantize.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/quantize.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/quantize.cpp.s
 
 src/tensorflow/lite/micro/kernels/reduce.obj: src/tensorflow/lite/micro/kernels/reduce.cpp.obj
@@ -2150,7 +2150,7 @@ src/tensorflow/lite/micro/kernels/reduce.obj: src/tensorflow/lite/micro/kernels/
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/reduce.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/reduce.cpp.obj
 
 src/tensorflow/lite/micro/kernels/reduce.i: src/tensorflow/lite/micro/kernels/reduce.cpp.i
@@ -2158,7 +2158,7 @@ src/tensorflow/lite/micro/kernels/reduce.i: src/tensorflow/lite/micro/kernels/re
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/reduce.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/reduce.cpp.i
 
 src/tensorflow/lite/micro/kernels/reduce.s: src/tensorflow/lite/micro/kernels/reduce.cpp.s
@@ -2166,7 +2166,7 @@ src/tensorflow/lite/micro/kernels/reduce.s: src/tensorflow/lite/micro/kernels/re
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/reduce.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reduce.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/reduce.cpp.s
 
 src/tensorflow/lite/micro/kernels/reshape.obj: src/tensorflow/lite/micro/kernels/reshape.cpp.obj
@@ -2174,7 +2174,7 @@ src/tensorflow/lite/micro/kernels/reshape.obj: src/tensorflow/lite/micro/kernels
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/reshape.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/reshape.cpp.obj
 
 src/tensorflow/lite/micro/kernels/reshape.i: src/tensorflow/lite/micro/kernels/reshape.cpp.i
@@ -2182,7 +2182,7 @@ src/tensorflow/lite/micro/kernels/reshape.i: src/tensorflow/lite/micro/kernels/r
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/reshape.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/reshape.cpp.i
 
 src/tensorflow/lite/micro/kernels/reshape.s: src/tensorflow/lite/micro/kernels/reshape.cpp.s
@@ -2190,7 +2190,7 @@ src/tensorflow/lite/micro/kernels/reshape.s: src/tensorflow/lite/micro/kernels/r
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/reshape.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/reshape.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/reshape.cpp.s
 
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.obj: src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.obj
@@ -2198,7 +2198,7 @@ src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.obj: src/tensorflow/li
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.obj
 
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.i: src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.i
@@ -2206,7 +2206,7 @@ src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.i: src/tensorflow/lite
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.i
 
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.s: src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.s
@@ -2214,7 +2214,7 @@ src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.s: src/tensorflow/lite
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp.s
 
 src/tensorflow/lite/micro/kernels/round.obj: src/tensorflow/lite/micro/kernels/round.cpp.obj
@@ -2222,7 +2222,7 @@ src/tensorflow/lite/micro/kernels/round.obj: src/tensorflow/lite/micro/kernels/r
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/round.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/round.cpp.obj
 
 src/tensorflow/lite/micro/kernels/round.i: src/tensorflow/lite/micro/kernels/round.cpp.i
@@ -2230,7 +2230,7 @@ src/tensorflow/lite/micro/kernels/round.i: src/tensorflow/lite/micro/kernels/rou
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/round.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/round.cpp.i
 
 src/tensorflow/lite/micro/kernels/round.s: src/tensorflow/lite/micro/kernels/round.cpp.s
@@ -2238,7 +2238,7 @@ src/tensorflow/lite/micro/kernels/round.s: src/tensorflow/lite/micro/kernels/rou
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/round.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/round.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/round.cpp.s
 
 src/tensorflow/lite/micro/kernels/shape.obj: src/tensorflow/lite/micro/kernels/shape.cpp.obj
@@ -2246,7 +2246,7 @@ src/tensorflow/lite/micro/kernels/shape.obj: src/tensorflow/lite/micro/kernels/s
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/shape.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/shape.cpp.obj
 
 src/tensorflow/lite/micro/kernels/shape.i: src/tensorflow/lite/micro/kernels/shape.cpp.i
@@ -2254,7 +2254,7 @@ src/tensorflow/lite/micro/kernels/shape.i: src/tensorflow/lite/micro/kernels/sha
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/shape.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/shape.cpp.i
 
 src/tensorflow/lite/micro/kernels/shape.s: src/tensorflow/lite/micro/kernels/shape.cpp.s
@@ -2262,7 +2262,7 @@ src/tensorflow/lite/micro/kernels/shape.s: src/tensorflow/lite/micro/kernels/sha
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/shape.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/shape.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/shape.cpp.s
 
 src/tensorflow/lite/micro/kernels/split.obj: src/tensorflow/lite/micro/kernels/split.cpp.obj
@@ -2270,7 +2270,7 @@ src/tensorflow/lite/micro/kernels/split.obj: src/tensorflow/lite/micro/kernels/s
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/split.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/split.cpp.obj
 
 src/tensorflow/lite/micro/kernels/split.i: src/tensorflow/lite/micro/kernels/split.cpp.i
@@ -2278,7 +2278,7 @@ src/tensorflow/lite/micro/kernels/split.i: src/tensorflow/lite/micro/kernels/spl
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/split.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/split.cpp.i
 
 src/tensorflow/lite/micro/kernels/split.s: src/tensorflow/lite/micro/kernels/split.cpp.s
@@ -2286,7 +2286,7 @@ src/tensorflow/lite/micro/kernels/split.s: src/tensorflow/lite/micro/kernels/spl
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/split.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/split.cpp.s
 
 src/tensorflow/lite/micro/kernels/split_v.obj: src/tensorflow/lite/micro/kernels/split_v.cpp.obj
@@ -2294,7 +2294,7 @@ src/tensorflow/lite/micro/kernels/split_v.obj: src/tensorflow/lite/micro/kernels
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/split_v.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/split_v.cpp.obj
 
 src/tensorflow/lite/micro/kernels/split_v.i: src/tensorflow/lite/micro/kernels/split_v.cpp.i
@@ -2302,7 +2302,7 @@ src/tensorflow/lite/micro/kernels/split_v.i: src/tensorflow/lite/micro/kernels/s
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/split_v.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/split_v.cpp.i
 
 src/tensorflow/lite/micro/kernels/split_v.s: src/tensorflow/lite/micro/kernels/split_v.cpp.s
@@ -2310,7 +2310,7 @@ src/tensorflow/lite/micro/kernels/split_v.s: src/tensorflow/lite/micro/kernels/s
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/split_v.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/split_v.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/split_v.cpp.s
 
 src/tensorflow/lite/micro/kernels/strided_slice.obj: src/tensorflow/lite/micro/kernels/strided_slice.cpp.obj
@@ -2318,7 +2318,7 @@ src/tensorflow/lite/micro/kernels/strided_slice.obj: src/tensorflow/lite/micro/k
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/strided_slice.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/strided_slice.cpp.obj
 
 src/tensorflow/lite/micro/kernels/strided_slice.i: src/tensorflow/lite/micro/kernels/strided_slice.cpp.i
@@ -2326,7 +2326,7 @@ src/tensorflow/lite/micro/kernels/strided_slice.i: src/tensorflow/lite/micro/ker
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/strided_slice.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/strided_slice.cpp.i
 
 src/tensorflow/lite/micro/kernels/strided_slice.s: src/tensorflow/lite/micro/kernels/strided_slice.cpp.s
@@ -2334,7 +2334,7 @@ src/tensorflow/lite/micro/kernels/strided_slice.s: src/tensorflow/lite/micro/ker
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/strided_slice.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/strided_slice.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/strided_slice.cpp.s
 
 src/tensorflow/lite/micro/kernels/sub.obj: src/tensorflow/lite/micro/kernels/sub.cpp.obj
@@ -2342,7 +2342,7 @@ src/tensorflow/lite/micro/kernels/sub.obj: src/tensorflow/lite/micro/kernels/sub
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/sub.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/sub.cpp.obj
 
 src/tensorflow/lite/micro/kernels/sub.i: src/tensorflow/lite/micro/kernels/sub.cpp.i
@@ -2350,7 +2350,7 @@ src/tensorflow/lite/micro/kernels/sub.i: src/tensorflow/lite/micro/kernels/sub.c
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/sub.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/sub.cpp.i
 
 src/tensorflow/lite/micro/kernels/sub.s: src/tensorflow/lite/micro/kernels/sub.cpp.s
@@ -2358,7 +2358,7 @@ src/tensorflow/lite/micro/kernels/sub.s: src/tensorflow/lite/micro/kernels/sub.c
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/sub.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/sub.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/sub.cpp.s
 
 src/tensorflow/lite/micro/kernels/tanh.obj: src/tensorflow/lite/micro/kernels/tanh.cpp.obj
@@ -2366,7 +2366,7 @@ src/tensorflow/lite/micro/kernels/tanh.obj: src/tensorflow/lite/micro/kernels/ta
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/tanh.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/tanh.cpp.obj
 
 src/tensorflow/lite/micro/kernels/tanh.i: src/tensorflow/lite/micro/kernels/tanh.cpp.i
@@ -2374,7 +2374,7 @@ src/tensorflow/lite/micro/kernels/tanh.i: src/tensorflow/lite/micro/kernels/tanh
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/tanh.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/tanh.cpp.i
 
 src/tensorflow/lite/micro/kernels/tanh.s: src/tensorflow/lite/micro/kernels/tanh.cpp.s
@@ -2382,7 +2382,7 @@ src/tensorflow/lite/micro/kernels/tanh.s: src/tensorflow/lite/micro/kernels/tanh
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/tanh.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/tanh.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/tanh.cpp.s
 
 src/tensorflow/lite/micro/kernels/unpack.obj: src/tensorflow/lite/micro/kernels/unpack.cpp.obj
@@ -2390,7 +2390,7 @@ src/tensorflow/lite/micro/kernels/unpack.obj: src/tensorflow/lite/micro/kernels/
 
 # target to build an object file
 src/tensorflow/lite/micro/kernels/unpack.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.obj
 .PHONY : src/tensorflow/lite/micro/kernels/unpack.cpp.obj
 
 src/tensorflow/lite/micro/kernels/unpack.i: src/tensorflow/lite/micro/kernels/unpack.cpp.i
@@ -2398,7 +2398,7 @@ src/tensorflow/lite/micro/kernels/unpack.i: src/tensorflow/lite/micro/kernels/un
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/kernels/unpack.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.i
 .PHONY : src/tensorflow/lite/micro/kernels/unpack.cpp.i
 
 src/tensorflow/lite/micro/kernels/unpack.s: src/tensorflow/lite/micro/kernels/unpack.cpp.s
@@ -2406,7 +2406,7 @@ src/tensorflow/lite/micro/kernels/unpack.s: src/tensorflow/lite/micro/kernels/un
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/kernels/unpack.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/kernels/unpack.cpp.s
 .PHONY : src/tensorflow/lite/micro/kernels/unpack.cpp.s
 
 src/tensorflow/lite/micro/memory_helpers.obj: src/tensorflow/lite/micro/memory_helpers.cpp.obj
@@ -2414,7 +2414,7 @@ src/tensorflow/lite/micro/memory_helpers.obj: src/tensorflow/lite/micro/memory_h
 
 # target to build an object file
 src/tensorflow/lite/micro/memory_helpers.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.obj
 .PHONY : src/tensorflow/lite/micro/memory_helpers.cpp.obj
 
 src/tensorflow/lite/micro/memory_helpers.i: src/tensorflow/lite/micro/memory_helpers.cpp.i
@@ -2422,7 +2422,7 @@ src/tensorflow/lite/micro/memory_helpers.i: src/tensorflow/lite/micro/memory_hel
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/memory_helpers.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.i
 .PHONY : src/tensorflow/lite/micro/memory_helpers.cpp.i
 
 src/tensorflow/lite/micro/memory_helpers.s: src/tensorflow/lite/micro/memory_helpers.cpp.s
@@ -2430,7 +2430,7 @@ src/tensorflow/lite/micro/memory_helpers.s: src/tensorflow/lite/micro/memory_hel
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/memory_helpers.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_helpers.cpp.s
 .PHONY : src/tensorflow/lite/micro/memory_helpers.cpp.s
 
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj: src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.obj
@@ -2438,7 +2438,7 @@ src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj: src/tensorfl
 
 # target to build an object file
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.obj
 .PHONY : src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.obj
 
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.i: src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.i
@@ -2446,7 +2446,7 @@ src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.i: src/tensorflow
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.i
 .PHONY : src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.i
 
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.s: src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.s
@@ -2454,7 +2454,7 @@ src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.s: src/tensorflow
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.s
 .PHONY : src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp.s
 
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj: src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.obj
@@ -2462,7 +2462,7 @@ src/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj: src/tensorfl
 
 # target to build an object file
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.obj
 .PHONY : src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.obj
 
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.i: src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.i
@@ -2470,7 +2470,7 @@ src/tensorflow/lite/micro/memory_planner/linear_memory_planner.i: src/tensorflow
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.i
 .PHONY : src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.i
 
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.s: src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.s
@@ -2478,7 +2478,7 @@ src/tensorflow/lite/micro/memory_planner/linear_memory_planner.s: src/tensorflow
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.s
 .PHONY : src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp.s
 
 src/tensorflow/lite/micro/micro_allocator.obj: src/tensorflow/lite/micro/micro_allocator.cpp.obj
@@ -2486,7 +2486,7 @@ src/tensorflow/lite/micro/micro_allocator.obj: src/tensorflow/lite/micro/micro_a
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_allocator.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_allocator.cpp.obj
 
 src/tensorflow/lite/micro/micro_allocator.i: src/tensorflow/lite/micro/micro_allocator.cpp.i
@@ -2494,7 +2494,7 @@ src/tensorflow/lite/micro/micro_allocator.i: src/tensorflow/lite/micro/micro_all
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_allocator.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_allocator.cpp.i
 
 src/tensorflow/lite/micro/micro_allocator.s: src/tensorflow/lite/micro/micro_allocator.cpp.s
@@ -2502,7 +2502,7 @@ src/tensorflow/lite/micro/micro_allocator.s: src/tensorflow/lite/micro/micro_all
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_allocator.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_allocator.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_allocator.cpp.s
 
 src/tensorflow/lite/micro/micro_error_reporter.obj: src/tensorflow/lite/micro/micro_error_reporter.cpp.obj
@@ -2510,7 +2510,7 @@ src/tensorflow/lite/micro/micro_error_reporter.obj: src/tensorflow/lite/micro/mi
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_error_reporter.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_error_reporter.cpp.obj
 
 src/tensorflow/lite/micro/micro_error_reporter.i: src/tensorflow/lite/micro/micro_error_reporter.cpp.i
@@ -2518,7 +2518,7 @@ src/tensorflow/lite/micro/micro_error_reporter.i: src/tensorflow/lite/micro/micr
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_error_reporter.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_error_reporter.cpp.i
 
 src/tensorflow/lite/micro/micro_error_reporter.s: src/tensorflow/lite/micro/micro_error_reporter.cpp.s
@@ -2526,7 +2526,7 @@ src/tensorflow/lite/micro/micro_error_reporter.s: src/tensorflow/lite/micro/micr
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_error_reporter.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_error_reporter.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_error_reporter.cpp.s
 
 src/tensorflow/lite/micro/micro_interpreter.obj: src/tensorflow/lite/micro/micro_interpreter.cpp.obj
@@ -2534,7 +2534,7 @@ src/tensorflow/lite/micro/micro_interpreter.obj: src/tensorflow/lite/micro/micro
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_interpreter.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_interpreter.cpp.obj
 
 src/tensorflow/lite/micro/micro_interpreter.i: src/tensorflow/lite/micro/micro_interpreter.cpp.i
@@ -2542,7 +2542,7 @@ src/tensorflow/lite/micro/micro_interpreter.i: src/tensorflow/lite/micro/micro_i
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_interpreter.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_interpreter.cpp.i
 
 src/tensorflow/lite/micro/micro_interpreter.s: src/tensorflow/lite/micro/micro_interpreter.cpp.s
@@ -2550,7 +2550,7 @@ src/tensorflow/lite/micro/micro_interpreter.s: src/tensorflow/lite/micro/micro_i
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_interpreter.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_interpreter.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_interpreter.cpp.s
 
 src/tensorflow/lite/micro/micro_profiler.obj: src/tensorflow/lite/micro/micro_profiler.cpp.obj
@@ -2558,7 +2558,7 @@ src/tensorflow/lite/micro/micro_profiler.obj: src/tensorflow/lite/micro/micro_pr
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_profiler.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_profiler.cpp.obj
 
 src/tensorflow/lite/micro/micro_profiler.i: src/tensorflow/lite/micro/micro_profiler.cpp.i
@@ -2566,7 +2566,7 @@ src/tensorflow/lite/micro/micro_profiler.i: src/tensorflow/lite/micro/micro_prof
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_profiler.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_profiler.cpp.i
 
 src/tensorflow/lite/micro/micro_profiler.s: src/tensorflow/lite/micro/micro_profiler.cpp.s
@@ -2574,7 +2574,7 @@ src/tensorflow/lite/micro/micro_profiler.s: src/tensorflow/lite/micro/micro_prof
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_profiler.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_profiler.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_profiler.cpp.s
 
 src/tensorflow/lite/micro/micro_string.obj: src/tensorflow/lite/micro/micro_string.cpp.obj
@@ -2582,7 +2582,7 @@ src/tensorflow/lite/micro/micro_string.obj: src/tensorflow/lite/micro/micro_stri
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_string.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_string.cpp.obj
 
 src/tensorflow/lite/micro/micro_string.i: src/tensorflow/lite/micro/micro_string.cpp.i
@@ -2590,7 +2590,7 @@ src/tensorflow/lite/micro/micro_string.i: src/tensorflow/lite/micro/micro_string
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_string.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_string.cpp.i
 
 src/tensorflow/lite/micro/micro_string.s: src/tensorflow/lite/micro/micro_string.cpp.s
@@ -2598,7 +2598,7 @@ src/tensorflow/lite/micro/micro_string.s: src/tensorflow/lite/micro/micro_string
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_string.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_string.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_string.cpp.s
 
 src/tensorflow/lite/micro/micro_utils.obj: src/tensorflow/lite/micro/micro_utils.cpp.obj
@@ -2606,7 +2606,7 @@ src/tensorflow/lite/micro/micro_utils.obj: src/tensorflow/lite/micro/micro_utils
 
 # target to build an object file
 src/tensorflow/lite/micro/micro_utils.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.obj
 .PHONY : src/tensorflow/lite/micro/micro_utils.cpp.obj
 
 src/tensorflow/lite/micro/micro_utils.i: src/tensorflow/lite/micro/micro_utils.cpp.i
@@ -2614,7 +2614,7 @@ src/tensorflow/lite/micro/micro_utils.i: src/tensorflow/lite/micro/micro_utils.c
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/micro_utils.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.i
 .PHONY : src/tensorflow/lite/micro/micro_utils.cpp.i
 
 src/tensorflow/lite/micro/micro_utils.s: src/tensorflow/lite/micro/micro_utils.cpp.s
@@ -2622,7 +2622,7 @@ src/tensorflow/lite/micro/micro_utils.s: src/tensorflow/lite/micro/micro_utils.c
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/micro_utils.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/micro_utils.cpp.s
 .PHONY : src/tensorflow/lite/micro/micro_utils.cpp.s
 
 src/tensorflow/lite/micro/recording_micro_allocator.obj: src/tensorflow/lite/micro/recording_micro_allocator.cpp.obj
@@ -2630,7 +2630,7 @@ src/tensorflow/lite/micro/recording_micro_allocator.obj: src/tensorflow/lite/mic
 
 # target to build an object file
 src/tensorflow/lite/micro/recording_micro_allocator.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.obj
 .PHONY : src/tensorflow/lite/micro/recording_micro_allocator.cpp.obj
 
 src/tensorflow/lite/micro/recording_micro_allocator.i: src/tensorflow/lite/micro/recording_micro_allocator.cpp.i
@@ -2638,7 +2638,7 @@ src/tensorflow/lite/micro/recording_micro_allocator.i: src/tensorflow/lite/micro
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/recording_micro_allocator.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.i
 .PHONY : src/tensorflow/lite/micro/recording_micro_allocator.cpp.i
 
 src/tensorflow/lite/micro/recording_micro_allocator.s: src/tensorflow/lite/micro/recording_micro_allocator.cpp.s
@@ -2646,7 +2646,7 @@ src/tensorflow/lite/micro/recording_micro_allocator.s: src/tensorflow/lite/micro
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/recording_micro_allocator.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_micro_allocator.cpp.s
 .PHONY : src/tensorflow/lite/micro/recording_micro_allocator.cpp.s
 
 src/tensorflow/lite/micro/recording_simple_memory_allocator.obj: src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.obj
@@ -2654,7 +2654,7 @@ src/tensorflow/lite/micro/recording_simple_memory_allocator.obj: src/tensorflow/
 
 # target to build an object file
 src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.obj
 .PHONY : src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.obj
 
 src/tensorflow/lite/micro/recording_simple_memory_allocator.i: src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.i
@@ -2662,7 +2662,7 @@ src/tensorflow/lite/micro/recording_simple_memory_allocator.i: src/tensorflow/li
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.i
 .PHONY : src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.i
 
 src/tensorflow/lite/micro/recording_simple_memory_allocator.s: src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.s
@@ -2670,7 +2670,7 @@ src/tensorflow/lite/micro/recording_simple_memory_allocator.s: src/tensorflow/li
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.s
 .PHONY : src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp.s
 
 src/tensorflow/lite/micro/rp2/debug_log.obj: src/tensorflow/lite/micro/rp2/debug_log.cpp.obj
@@ -2678,7 +2678,7 @@ src/tensorflow/lite/micro/rp2/debug_log.obj: src/tensorflow/lite/micro/rp2/debug
 
 # target to build an object file
 src/tensorflow/lite/micro/rp2/debug_log.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.obj
 .PHONY : src/tensorflow/lite/micro/rp2/debug_log.cpp.obj
 
 src/tensorflow/lite/micro/rp2/debug_log.i: src/tensorflow/lite/micro/rp2/debug_log.cpp.i
@@ -2686,7 +2686,7 @@ src/tensorflow/lite/micro/rp2/debug_log.i: src/tensorflow/lite/micro/rp2/debug_l
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/rp2/debug_log.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.i
 .PHONY : src/tensorflow/lite/micro/rp2/debug_log.cpp.i
 
 src/tensorflow/lite/micro/rp2/debug_log.s: src/tensorflow/lite/micro/rp2/debug_log.cpp.s
@@ -2694,7 +2694,7 @@ src/tensorflow/lite/micro/rp2/debug_log.s: src/tensorflow/lite/micro/rp2/debug_l
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/rp2/debug_log.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/debug_log.cpp.s
 .PHONY : src/tensorflow/lite/micro/rp2/debug_log.cpp.s
 
 src/tensorflow/lite/micro/rp2/micro_time.obj: src/tensorflow/lite/micro/rp2/micro_time.cpp.obj
@@ -2702,7 +2702,7 @@ src/tensorflow/lite/micro/rp2/micro_time.obj: src/tensorflow/lite/micro/rp2/micr
 
 # target to build an object file
 src/tensorflow/lite/micro/rp2/micro_time.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.obj
 .PHONY : src/tensorflow/lite/micro/rp2/micro_time.cpp.obj
 
 src/tensorflow/lite/micro/rp2/micro_time.i: src/tensorflow/lite/micro/rp2/micro_time.cpp.i
@@ -2710,7 +2710,7 @@ src/tensorflow/lite/micro/rp2/micro_time.i: src/tensorflow/lite/micro/rp2/micro_
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/rp2/micro_time.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.i
 .PHONY : src/tensorflow/lite/micro/rp2/micro_time.cpp.i
 
 src/tensorflow/lite/micro/rp2/micro_time.s: src/tensorflow/lite/micro/rp2/micro_time.cpp.s
@@ -2718,7 +2718,7 @@ src/tensorflow/lite/micro/rp2/micro_time.s: src/tensorflow/lite/micro/rp2/micro_
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/rp2/micro_time.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/rp2/micro_time.cpp.s
 .PHONY : src/tensorflow/lite/micro/rp2/micro_time.cpp.s
 
 src/tensorflow/lite/micro/simple_memory_allocator.obj: src/tensorflow/lite/micro/simple_memory_allocator.cpp.obj
@@ -2726,7 +2726,7 @@ src/tensorflow/lite/micro/simple_memory_allocator.obj: src/tensorflow/lite/micro
 
 # target to build an object file
 src/tensorflow/lite/micro/simple_memory_allocator.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.obj
 .PHONY : src/tensorflow/lite/micro/simple_memory_allocator.cpp.obj
 
 src/tensorflow/lite/micro/simple_memory_allocator.i: src/tensorflow/lite/micro/simple_memory_allocator.cpp.i
@@ -2734,7 +2734,7 @@ src/tensorflow/lite/micro/simple_memory_allocator.i: src/tensorflow/lite/micro/s
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/simple_memory_allocator.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.i
 .PHONY : src/tensorflow/lite/micro/simple_memory_allocator.cpp.i
 
 src/tensorflow/lite/micro/simple_memory_allocator.s: src/tensorflow/lite/micro/simple_memory_allocator.cpp.s
@@ -2742,7 +2742,7 @@ src/tensorflow/lite/micro/simple_memory_allocator.s: src/tensorflow/lite/micro/s
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/simple_memory_allocator.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/simple_memory_allocator.cpp.s
 .PHONY : src/tensorflow/lite/micro/simple_memory_allocator.cpp.s
 
 src/tensorflow/lite/micro/test_helpers.obj: src/tensorflow/lite/micro/test_helpers.cpp.obj
@@ -2750,7 +2750,7 @@ src/tensorflow/lite/micro/test_helpers.obj: src/tensorflow/lite/micro/test_helpe
 
 # target to build an object file
 src/tensorflow/lite/micro/test_helpers.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.obj
 .PHONY : src/tensorflow/lite/micro/test_helpers.cpp.obj
 
 src/tensorflow/lite/micro/test_helpers.i: src/tensorflow/lite/micro/test_helpers.cpp.i
@@ -2758,7 +2758,7 @@ src/tensorflow/lite/micro/test_helpers.i: src/tensorflow/lite/micro/test_helpers
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/test_helpers.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.i
 .PHONY : src/tensorflow/lite/micro/test_helpers.cpp.i
 
 src/tensorflow/lite/micro/test_helpers.s: src/tensorflow/lite/micro/test_helpers.cpp.s
@@ -2766,7 +2766,7 @@ src/tensorflow/lite/micro/test_helpers.s: src/tensorflow/lite/micro/test_helpers
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/test_helpers.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/test_helpers.cpp.s
 .PHONY : src/tensorflow/lite/micro/test_helpers.cpp.s
 
 src/tensorflow/lite/micro/testing/test_conv_model.obj: src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
@@ -2774,8 +2774,8 @@ src/tensorflow/lite/micro/testing/test_conv_model.obj: src/tensorflow/lite/micro
 
 # target to build an object file
 src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
 .PHONY : src/tensorflow/lite/micro/testing/test_conv_model.cpp.obj
 
 src/tensorflow/lite/micro/testing/test_conv_model.i: src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
@@ -2783,8 +2783,8 @@ src/tensorflow/lite/micro/testing/test_conv_model.i: src/tensorflow/lite/micro/t
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/testing/test_conv_model.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
 .PHONY : src/tensorflow/lite/micro/testing/test_conv_model.cpp.i
 
 src/tensorflow/lite/micro/testing/test_conv_model.s: src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
@@ -2792,8 +2792,8 @@ src/tensorflow/lite/micro/testing/test_conv_model.s: src/tensorflow/lite/micro/t
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/testing/test_conv_model.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
 .PHONY : src/tensorflow/lite/micro/testing/test_conv_model.cpp.s
 
 src/tensorflow/lite/micro/testing/util_test.obj: src/tensorflow/lite/micro/testing/util_test.cpp.obj
@@ -2801,7 +2801,7 @@ src/tensorflow/lite/micro/testing/util_test.obj: src/tensorflow/lite/micro/testi
 
 # target to build an object file
 src/tensorflow/lite/micro/testing/util_test.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.obj
 .PHONY : src/tensorflow/lite/micro/testing/util_test.cpp.obj
 
 src/tensorflow/lite/micro/testing/util_test.i: src/tensorflow/lite/micro/testing/util_test.cpp.i
@@ -2809,7 +2809,7 @@ src/tensorflow/lite/micro/testing/util_test.i: src/tensorflow/lite/micro/testing
 
 # target to preprocess a source file
 src/tensorflow/lite/micro/testing/util_test.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.i
 .PHONY : src/tensorflow/lite/micro/testing/util_test.cpp.i
 
 src/tensorflow/lite/micro/testing/util_test.s: src/tensorflow/lite/micro/testing/util_test.cpp.s
@@ -2817,7 +2817,7 @@ src/tensorflow/lite/micro/testing/util_test.s: src/tensorflow/lite/micro/testing
 
 # target to generate assembly for a file
 src/tensorflow/lite/micro/testing/util_test.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro_test.dir/src/tensorflow/lite/micro/testing/util_test.cpp.s
 .PHONY : src/tensorflow/lite/micro/testing/util_test.cpp.s
 
 src/tensorflow/lite/schema/schema_utils.obj: src/tensorflow/lite/schema/schema_utils.cpp.obj
@@ -2825,7 +2825,7 @@ src/tensorflow/lite/schema/schema_utils.obj: src/tensorflow/lite/schema/schema_u
 
 # target to build an object file
 src/tensorflow/lite/schema/schema_utils.cpp.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.obj
 .PHONY : src/tensorflow/lite/schema/schema_utils.cpp.obj
 
 src/tensorflow/lite/schema/schema_utils.i: src/tensorflow/lite/schema/schema_utils.cpp.i
@@ -2833,7 +2833,7 @@ src/tensorflow/lite/schema/schema_utils.i: src/tensorflow/lite/schema/schema_uti
 
 # target to preprocess a source file
 src/tensorflow/lite/schema/schema_utils.cpp.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.i
 .PHONY : src/tensorflow/lite/schema/schema_utils.cpp.i
 
 src/tensorflow/lite/schema/schema_utils.s: src/tensorflow/lite/schema/schema_utils.cpp.s
@@ -2841,7 +2841,7 @@ src/tensorflow/lite/schema/schema_utils.s: src/tensorflow/lite/schema/schema_uti
 
 # target to generate assembly for a file
 src/tensorflow/lite/schema/schema_utils.cpp.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/tensorflow/lite/schema/schema_utils.cpp.s
 .PHONY : src/tensorflow/lite/schema/schema_utils.cpp.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.obj
@@ -2849,7 +2849,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.i: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.i
@@ -2857,7 +2857,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.s: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.s
@@ -2865,7 +2865,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.obj
@@ -2873,7 +2873,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.i: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.i
@@ -2881,7 +2881,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.s: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.s
@@ -2889,7 +2889,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.obj
@@ -2897,7 +2897,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.i
@@ -2905,7 +2905,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.s
@@ -2913,7 +2913,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.obj
@@ -2921,7 +2921,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.i: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.i
@@ -2929,7 +2929,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.s: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.s
@@ -2937,7 +2937,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.obj
@@ -2945,7 +2945,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.i: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.i
@@ -2953,7 +2953,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.s: src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.s
@@ -2961,7 +2961,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj
@@ -2969,7 +2969,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.i: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.i
@@ -2977,7 +2977,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.s: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.s
@@ -2985,7 +2985,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj
@@ -2993,7 +2993,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.i: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.i
@@ -3001,7 +3001,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.s: src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.s
@@ -3009,7 +3009,7 @@ src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.obj: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj
@@ -3017,7 +3017,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.i: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.i
@@ -3025,7 +3025,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.s: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.s
@@ -3033,7 +3033,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.obj: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj
@@ -3041,7 +3041,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.i: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.i
@@ -3049,7 +3049,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.s: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.s
@@ -3057,7 +3057,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.obj: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj
@@ -3065,7 +3065,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.i: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.i
@@ -3073,7 +3073,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.s: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.s
@@ -3081,7 +3081,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.obj: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj
@@ -3089,7 +3089,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.i: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.i
@@ -3097,7 +3097,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.s: src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.s
@@ -3105,7 +3105,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj
@@ -3113,7 +3113,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.i
@@ -3121,7 +3121,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.s
@@ -3129,7 +3129,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.obj
@@ -3137,7 +3137,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.i
@@ -3145,7 +3145,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.s
@@ -3153,7 +3153,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj
@@ -3161,7 +3161,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_f
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.i
@@ -3169,7 +3169,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_f
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.s
@@ -3177,7 +3177,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_f
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.obj
@@ -3185,7 +3185,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.i
@@ -3193,7 +3193,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.s
@@ -3201,7 +3201,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.obj
@@ -3209,7 +3209,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.i
@@ -3217,7 +3217,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.s
@@ -3225,7 +3225,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.obj
@@ -3233,7 +3233,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.i
@@ -3241,7 +3241,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.s
@@ -3249,7 +3249,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.obj
@@ -3257,7 +3257,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_R
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.i
@@ -3265,7 +3265,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_R
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.s
@@ -3273,7 +3273,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_R
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.obj
@@ -3281,7 +3281,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.i
@@ -3289,7 +3289,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.s
@@ -3297,7 +3297,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.obj
@@ -3305,7 +3305,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.i
@@ -3313,7 +3313,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.s
@@ -3321,7 +3321,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_b
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.obj
@@ -3329,7 +3329,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.i
@@ -3337,7 +3337,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.s
@@ -3345,7 +3345,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.obj
@@ -3353,7 +3353,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.i
@@ -3361,7 +3361,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.s
@@ -3369,7 +3369,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_f
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.obj
@@ -3377,7 +3377,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.obj: 
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.i
@@ -3385,7 +3385,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.i: sr
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.s
@@ -3393,7 +3393,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.s: sr
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj
@@ -3401,7 +3401,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.i
@@ -3409,7 +3409,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.s
@@ -3417,7 +3417,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj
@@ -3425,7 +3425,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.i
@@ -3433,7 +3433,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.s
@@ -3441,7 +3441,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj
@@ -3449,7 +3449,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.i
@@ -3457,7 +3457,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.s
@@ -3465,7 +3465,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj
@@ -3473,7 +3473,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.i
@@ -3481,7 +3481,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.s
@@ -3489,7 +3489,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.obj
@@ -3497,7 +3497,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.i
@@ -3505,7 +3505,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.s
@@ -3513,7 +3513,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj
@@ -3521,7 +3521,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wr
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.i
@@ -3529,7 +3529,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wr
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.s
@@ -3537,7 +3537,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wr
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.obj
@@ -3545,7 +3545,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.i
@@ -3553,7 +3553,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.s
@@ -3561,7 +3561,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.obj
@@ -3569,7 +3569,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.i
@@ -3577,7 +3577,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.s
@@ -3585,7 +3585,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separab
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj
@@ -3593,7 +3593,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.i
@@ -3601,7 +3601,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.s
@@ -3609,7 +3609,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.obj
@@ -3617,7 +3617,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.i
@@ -3625,7 +3625,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.s
@@ -3633,7 +3633,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.obj
@@ -3641,7 +3641,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.i
@@ -3649,7 +3649,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.s
@@ -3657,7 +3657,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj
@@ -3665,7 +3665,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.i
@@ -3673,7 +3673,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.s
@@ -3681,7 +3681,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.obj
@@ -3689,7 +3689,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.i
@@ -3697,7 +3697,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.s
@@ -3705,7 +3705,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kerne
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj
@@ -3713,7 +3713,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.ob
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.i
@@ -3721,7 +3721,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.i:
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.s
@@ -3729,7 +3729,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.s:
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.obj
@@ -3737,7 +3737,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.i
@@ -3745,7 +3745,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.s
@@ -3753,7 +3753,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.obj
@@ -3761,7 +3761,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.i
@@ -3769,7 +3769,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.s
@@ -3777,7 +3777,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.obj
@@ -3785,7 +3785,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.i
@@ -3793,7 +3793,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.s
@@ -3801,7 +3801,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.obj
@@ -3809,7 +3809,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.i
@@ -3817,7 +3817,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.s
@@ -3825,7 +3825,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.obj
@@ -3833,7 +3833,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.i
@@ -3841,7 +3841,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.s
@@ -3849,7 +3849,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.obj
@@ -3857,7 +3857,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.i
@@ -3865,7 +3865,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.s
@@ -3873,7 +3873,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj
@@ -3881,7 +3881,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.i: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.i
@@ -3889,7 +3889,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.s: src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.s
@@ -3897,7 +3897,7 @@ src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connecte
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.obj
@@ -3905,7 +3905,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.i
@@ -3913,7 +3913,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.s
@@ -3921,7 +3921,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.obj
@@ -3929,7 +3929,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.i
@@ -3937,7 +3937,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.s
@@ -3945,7 +3945,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj
@@ -3953,7 +3953,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.i
@@ -3961,7 +3961,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.s
@@ -3969,7 +3969,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj
@@ -3977,7 +3977,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.i
@@ -3985,7 +3985,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.s
@@ -3993,7 +3993,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_n
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj
@@ -4001,7 +4001,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.i
@@ -4009,7 +4009,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.s
@@ -4017,7 +4017,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj
@@ -4025,7 +4025,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.i
@@ -4033,7 +4033,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.s
@@ -4041,7 +4041,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj
@@ -4049,7 +4049,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.i
@@ -4057,7 +4057,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.s
@@ -4065,7 +4065,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.obj
@@ -4073,7 +4073,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.obj: sr
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.i
@@ -4081,7 +4081,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.i: src/
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.s
@@ -4089,7 +4089,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.s: src/
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.obj
@@ -4097,7 +4097,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.obj: src
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.i
@@ -4105,7 +4105,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.i: src/t
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.s
@@ -4113,7 +4113,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.s: src/t
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj
@@ -4121,7 +4121,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.i
@@ -4129,7 +4129,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.s
@@ -4137,7 +4137,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.obj
@@ -4145,7 +4145,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.i
@@ -4153,7 +4153,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.s
@@ -4161,7 +4161,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.obj
@@ -4169,7 +4169,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.i
@@ -4177,7 +4177,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.s
@@ -4185,7 +4185,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.obj
@@ -4193,7 +4193,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.i
@@ -4201,7 +4201,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.s
@@ -4209,7 +4209,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.obj
@@ -4217,7 +4217,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.i
@@ -4225,7 +4225,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.s
@@ -4233,7 +4233,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.obj: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj
@@ -4241,7 +4241,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offs
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.i: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.i
@@ -4249,7 +4249,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offs
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.s: src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.s
@@ -4257,7 +4257,7 @@ src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offs
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.obj
@@ -4265,7 +4265,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.i: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.i
@@ -4273,7 +4273,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.s: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.s
@@ -4281,7 +4281,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.obj
@@ -4289,7 +4289,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.i: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.i
@@ -4297,7 +4297,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.s: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.s
@@ -4305,7 +4305,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.obj: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.obj
@@ -4313,7 +4313,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.i: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.i
@@ -4321,7 +4321,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.s: src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.s
@@ -4329,7 +4329,7 @@ src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.obj
@@ -4337,7 +4337,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.i: src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.i
@@ -4345,7 +4345,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.s: src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.s
@@ -4353,7 +4353,7 @@ src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.obj
@@ -4361,7 +4361,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.obj: src/third_pa
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.i: src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.i
@@ -4369,7 +4369,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.i: src/third_part
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.s: src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.s
@@ -4377,7 +4377,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.s: src/third_part
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.obj: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.obj
@@ -4385,7 +4385,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.obj: src/
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.i: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.i
@@ -4393,7 +4393,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.i: src/th
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.s: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.s
@@ -4401,7 +4401,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.s: src/th
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.obj
@@ -4409,7 +4409,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.i: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.i
@@ -4417,7 +4417,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.s: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.s
@@ -4425,7 +4425,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.obj: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
@@ -4433,7 +4433,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.i: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.i
@@ -4441,7 +4441,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.s: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.s
@@ -4449,7 +4449,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.obj: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj
@@ -4457,7 +4457,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.obj: src/t
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.i: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.i
@@ -4465,7 +4465,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.i: src/thi
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.s: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.s
@@ -4473,7 +4473,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.s: src/thi
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.s
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.obj: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj
@@ -4481,7 +4481,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7
 
 # target to build an object file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.i: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.i
@@ -4489,7 +4489,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7
 
 # target to preprocess a source file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.i
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.i
 
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.s: src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s
@@ -4497,7 +4497,7 @@ src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7
 
 # target to generate assembly for a file
 src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/build.make lib/pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s
 .PHONY : src/third_party/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s
 
 # Help Target
@@ -5051,6 +5051,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

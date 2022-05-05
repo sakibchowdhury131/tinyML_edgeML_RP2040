@@ -57,10 +57,10 @@ RM = /home/sakib/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_SOURCE_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app
+CMAKE_BINARY_DIR = /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions//CMakeFiles/progress.marks
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app/CMakeFiles 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions//CMakeFiles/progress.marks
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/clean
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/preinstall
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/rule:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/rule
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/rule
 .PHONY : lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CMSISDSPFastMath: lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSI
 
 # fast build rule for target.
 CMSISDSPFastMath/fast:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build
 .PHONY : CMSISDSPFastMath/fast
 
 arm_cos_f32.obj: arm_cos_f32.c.obj
@@ -135,7 +135,7 @@ arm_cos_f32.obj: arm_cos_f32.c.obj
 
 # target to build an object file
 arm_cos_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.obj
 .PHONY : arm_cos_f32.c.obj
 
 arm_cos_f32.i: arm_cos_f32.c.i
@@ -143,7 +143,7 @@ arm_cos_f32.i: arm_cos_f32.c.i
 
 # target to preprocess a source file
 arm_cos_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.i
 .PHONY : arm_cos_f32.c.i
 
 arm_cos_f32.s: arm_cos_f32.c.s
@@ -151,7 +151,7 @@ arm_cos_f32.s: arm_cos_f32.c.s
 
 # target to generate assembly for a file
 arm_cos_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_f32.c.s
 .PHONY : arm_cos_f32.c.s
 
 arm_cos_q15.obj: arm_cos_q15.c.obj
@@ -159,7 +159,7 @@ arm_cos_q15.obj: arm_cos_q15.c.obj
 
 # target to build an object file
 arm_cos_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.obj
 .PHONY : arm_cos_q15.c.obj
 
 arm_cos_q15.i: arm_cos_q15.c.i
@@ -167,7 +167,7 @@ arm_cos_q15.i: arm_cos_q15.c.i
 
 # target to preprocess a source file
 arm_cos_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.i
 .PHONY : arm_cos_q15.c.i
 
 arm_cos_q15.s: arm_cos_q15.c.s
@@ -175,7 +175,7 @@ arm_cos_q15.s: arm_cos_q15.c.s
 
 # target to generate assembly for a file
 arm_cos_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q15.c.s
 .PHONY : arm_cos_q15.c.s
 
 arm_cos_q31.obj: arm_cos_q31.c.obj
@@ -183,7 +183,7 @@ arm_cos_q31.obj: arm_cos_q31.c.obj
 
 # target to build an object file
 arm_cos_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.obj
 .PHONY : arm_cos_q31.c.obj
 
 arm_cos_q31.i: arm_cos_q31.c.i
@@ -191,7 +191,7 @@ arm_cos_q31.i: arm_cos_q31.c.i
 
 # target to preprocess a source file
 arm_cos_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.i
 .PHONY : arm_cos_q31.c.i
 
 arm_cos_q31.s: arm_cos_q31.c.s
@@ -199,7 +199,7 @@ arm_cos_q31.s: arm_cos_q31.c.s
 
 # target to generate assembly for a file
 arm_cos_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_cos_q31.c.s
 .PHONY : arm_cos_q31.c.s
 
 arm_divide_q15.obj: arm_divide_q15.c.obj
@@ -207,7 +207,7 @@ arm_divide_q15.obj: arm_divide_q15.c.obj
 
 # target to build an object file
 arm_divide_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.obj
 .PHONY : arm_divide_q15.c.obj
 
 arm_divide_q15.i: arm_divide_q15.c.i
@@ -215,7 +215,7 @@ arm_divide_q15.i: arm_divide_q15.c.i
 
 # target to preprocess a source file
 arm_divide_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.i
 .PHONY : arm_divide_q15.c.i
 
 arm_divide_q15.s: arm_divide_q15.c.s
@@ -223,7 +223,7 @@ arm_divide_q15.s: arm_divide_q15.c.s
 
 # target to generate assembly for a file
 arm_divide_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_divide_q15.c.s
 .PHONY : arm_divide_q15.c.s
 
 arm_sin_f32.obj: arm_sin_f32.c.obj
@@ -231,7 +231,7 @@ arm_sin_f32.obj: arm_sin_f32.c.obj
 
 # target to build an object file
 arm_sin_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.obj
 .PHONY : arm_sin_f32.c.obj
 
 arm_sin_f32.i: arm_sin_f32.c.i
@@ -239,7 +239,7 @@ arm_sin_f32.i: arm_sin_f32.c.i
 
 # target to preprocess a source file
 arm_sin_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.i
 .PHONY : arm_sin_f32.c.i
 
 arm_sin_f32.s: arm_sin_f32.c.s
@@ -247,7 +247,7 @@ arm_sin_f32.s: arm_sin_f32.c.s
 
 # target to generate assembly for a file
 arm_sin_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_f32.c.s
 .PHONY : arm_sin_f32.c.s
 
 arm_sin_q15.obj: arm_sin_q15.c.obj
@@ -255,7 +255,7 @@ arm_sin_q15.obj: arm_sin_q15.c.obj
 
 # target to build an object file
 arm_sin_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.obj
 .PHONY : arm_sin_q15.c.obj
 
 arm_sin_q15.i: arm_sin_q15.c.i
@@ -263,7 +263,7 @@ arm_sin_q15.i: arm_sin_q15.c.i
 
 # target to preprocess a source file
 arm_sin_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.i
 .PHONY : arm_sin_q15.c.i
 
 arm_sin_q15.s: arm_sin_q15.c.s
@@ -271,7 +271,7 @@ arm_sin_q15.s: arm_sin_q15.c.s
 
 # target to generate assembly for a file
 arm_sin_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q15.c.s
 .PHONY : arm_sin_q15.c.s
 
 arm_sin_q31.obj: arm_sin_q31.c.obj
@@ -279,7 +279,7 @@ arm_sin_q31.obj: arm_sin_q31.c.obj
 
 # target to build an object file
 arm_sin_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.obj
 .PHONY : arm_sin_q31.c.obj
 
 arm_sin_q31.i: arm_sin_q31.c.i
@@ -287,7 +287,7 @@ arm_sin_q31.i: arm_sin_q31.c.i
 
 # target to preprocess a source file
 arm_sin_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.i
 .PHONY : arm_sin_q31.c.i
 
 arm_sin_q31.s: arm_sin_q31.c.s
@@ -295,7 +295,7 @@ arm_sin_q31.s: arm_sin_q31.c.s
 
 # target to generate assembly for a file
 arm_sin_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sin_q31.c.s
 .PHONY : arm_sin_q31.c.s
 
 arm_sqrt_q15.obj: arm_sqrt_q15.c.obj
@@ -303,7 +303,7 @@ arm_sqrt_q15.obj: arm_sqrt_q15.c.obj
 
 # target to build an object file
 arm_sqrt_q15.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.obj
 .PHONY : arm_sqrt_q15.c.obj
 
 arm_sqrt_q15.i: arm_sqrt_q15.c.i
@@ -311,7 +311,7 @@ arm_sqrt_q15.i: arm_sqrt_q15.c.i
 
 # target to preprocess a source file
 arm_sqrt_q15.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.i
 .PHONY : arm_sqrt_q15.c.i
 
 arm_sqrt_q15.s: arm_sqrt_q15.c.s
@@ -319,7 +319,7 @@ arm_sqrt_q15.s: arm_sqrt_q15.c.s
 
 # target to generate assembly for a file
 arm_sqrt_q15.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q15.c.s
 .PHONY : arm_sqrt_q15.c.s
 
 arm_sqrt_q31.obj: arm_sqrt_q31.c.obj
@@ -327,7 +327,7 @@ arm_sqrt_q31.obj: arm_sqrt_q31.c.obj
 
 # target to build an object file
 arm_sqrt_q31.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.obj
 .PHONY : arm_sqrt_q31.c.obj
 
 arm_sqrt_q31.i: arm_sqrt_q31.c.i
@@ -335,7 +335,7 @@ arm_sqrt_q31.i: arm_sqrt_q31.c.i
 
 # target to preprocess a source file
 arm_sqrt_q31.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.i
 .PHONY : arm_sqrt_q31.c.i
 
 arm_sqrt_q31.s: arm_sqrt_q31.c.s
@@ -343,7 +343,7 @@ arm_sqrt_q31.s: arm_sqrt_q31.c.s
 
 # target to generate assembly for a file
 arm_sqrt_q31.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_sqrt_q31.c.s
 .PHONY : arm_sqrt_q31.c.s
 
 arm_vexp_f16.obj: arm_vexp_f16.c.obj
@@ -351,7 +351,7 @@ arm_vexp_f16.obj: arm_vexp_f16.c.obj
 
 # target to build an object file
 arm_vexp_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.obj
 .PHONY : arm_vexp_f16.c.obj
 
 arm_vexp_f16.i: arm_vexp_f16.c.i
@@ -359,7 +359,7 @@ arm_vexp_f16.i: arm_vexp_f16.c.i
 
 # target to preprocess a source file
 arm_vexp_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.i
 .PHONY : arm_vexp_f16.c.i
 
 arm_vexp_f16.s: arm_vexp_f16.c.s
@@ -367,7 +367,7 @@ arm_vexp_f16.s: arm_vexp_f16.c.s
 
 # target to generate assembly for a file
 arm_vexp_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f16.c.s
 .PHONY : arm_vexp_f16.c.s
 
 arm_vexp_f32.obj: arm_vexp_f32.c.obj
@@ -375,7 +375,7 @@ arm_vexp_f32.obj: arm_vexp_f32.c.obj
 
 # target to build an object file
 arm_vexp_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.obj
 .PHONY : arm_vexp_f32.c.obj
 
 arm_vexp_f32.i: arm_vexp_f32.c.i
@@ -383,7 +383,7 @@ arm_vexp_f32.i: arm_vexp_f32.c.i
 
 # target to preprocess a source file
 arm_vexp_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.i
 .PHONY : arm_vexp_f32.c.i
 
 arm_vexp_f32.s: arm_vexp_f32.c.s
@@ -391,7 +391,7 @@ arm_vexp_f32.s: arm_vexp_f32.c.s
 
 # target to generate assembly for a file
 arm_vexp_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vexp_f32.c.s
 .PHONY : arm_vexp_f32.c.s
 
 arm_vinverse_f16.obj: arm_vinverse_f16.c.obj
@@ -399,7 +399,7 @@ arm_vinverse_f16.obj: arm_vinverse_f16.c.obj
 
 # target to build an object file
 arm_vinverse_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.obj
 .PHONY : arm_vinverse_f16.c.obj
 
 arm_vinverse_f16.i: arm_vinverse_f16.c.i
@@ -407,7 +407,7 @@ arm_vinverse_f16.i: arm_vinverse_f16.c.i
 
 # target to preprocess a source file
 arm_vinverse_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.i
 .PHONY : arm_vinverse_f16.c.i
 
 arm_vinverse_f16.s: arm_vinverse_f16.c.s
@@ -415,7 +415,7 @@ arm_vinverse_f16.s: arm_vinverse_f16.c.s
 
 # target to generate assembly for a file
 arm_vinverse_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vinverse_f16.c.s
 .PHONY : arm_vinverse_f16.c.s
 
 arm_vlog_f16.obj: arm_vlog_f16.c.obj
@@ -423,7 +423,7 @@ arm_vlog_f16.obj: arm_vlog_f16.c.obj
 
 # target to build an object file
 arm_vlog_f16.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.obj
 .PHONY : arm_vlog_f16.c.obj
 
 arm_vlog_f16.i: arm_vlog_f16.c.i
@@ -431,7 +431,7 @@ arm_vlog_f16.i: arm_vlog_f16.c.i
 
 # target to preprocess a source file
 arm_vlog_f16.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.i
 .PHONY : arm_vlog_f16.c.i
 
 arm_vlog_f16.s: arm_vlog_f16.c.s
@@ -439,7 +439,7 @@ arm_vlog_f16.s: arm_vlog_f16.c.s
 
 # target to generate assembly for a file
 arm_vlog_f16.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f16.c.s
 .PHONY : arm_vlog_f16.c.s
 
 arm_vlog_f32.obj: arm_vlog_f32.c.obj
@@ -447,7 +447,7 @@ arm_vlog_f32.obj: arm_vlog_f32.c.obj
 
 # target to build an object file
 arm_vlog_f32.c.obj:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.obj
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.obj
 .PHONY : arm_vlog_f32.c.obj
 
 arm_vlog_f32.i: arm_vlog_f32.c.i
@@ -455,7 +455,7 @@ arm_vlog_f32.i: arm_vlog_f32.c.i
 
 # target to preprocess a source file
 arm_vlog_f32.c.i:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.i
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.i
 .PHONY : arm_vlog_f32.c.i
 
 arm_vlog_f32.s: arm_vlog_f32.c.s
@@ -463,7 +463,7 @@ arm_vlog_f32.s: arm_vlog_f32.c.s
 
 # target to generate assembly for a file
 arm_vlog_f32.c.s:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.s
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(MAKE) $(MAKESILENT) -f lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/build.make lib/CMSIS_5/CMSIS/DSP/Source/FastMathFunctions/CMakeFiles/CMSISDSPFastMath.dir/arm_vlog_f32.c.s
 .PHONY : arm_vlog_f32.c.s
 
 # Help Target
@@ -528,6 +528,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sakib/working_dir/railcop/ml-audio-classifier-example-for-pico/inference-app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sakib/working_dir/railcop/tinyML_edgeML_RP2040 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

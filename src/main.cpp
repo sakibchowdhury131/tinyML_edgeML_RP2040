@@ -82,8 +82,8 @@ int main(){
         printf("\n");
         x = x+0.1f;
 
-        if (x > 3.f){
-            x = 1.f;
+        if (x > 6.3f){
+            x = 0.f;
         }
 
     }
